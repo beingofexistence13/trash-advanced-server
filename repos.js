@@ -12,10 +12,6 @@
 
 const repos = [
     {
-        "title": "trash-advanced-server",
-        "url": "https://github.com/beingofexistence/trash-advanced-server"
-    },
-    {
         "title": "docker-openvscode-server",
         "url": "https://github.com/beingofexistence/docker-openvscode-server"
     },
@@ -26,10 +22,6 @@ const repos = [
     {
         "title": "code-server-railway",
         "url": "https://github.com/beingofexistence/code-server-railway"
-    },
-    {
-        "title": "coder-test-www",
-        "url": "https://github.com/beingofexistence/coder-test-www"
     },
     {
         "title": "friday-max",
@@ -116,10 +108,6 @@ const repos = [
         "url": "https://github.com/beingofexistence/connect"
     },
     {
-        "title": "hello",
-        "url": "https://github.com/beingofexistence/hello"
-    },
-    {
         "title": "nextjs-libraries",
         "url": "https://github.com/beingofexistence/nextjs-libraries"
     },
@@ -134,18 +122,6 @@ const repos = [
     {
         "title": "todo",
         "url": "https://github.com/beingofexistence/todo"
-    },
-    {
-        "title": "hello-tazmi",
-        "url": "https://github.com/beingofexistence/hello-tazmi"
-    },
-    {
-        "title": "emonswap",
-        "url": "https://github.com/beingofexistence/emonswap"
-    },
-    {
-        "title": "ManFromEarth",
-        "url": "https://github.com/beingofexistence/ManFromEarth"
     },
     {
         "title": "laravel",
@@ -173,3 +149,15 @@ const repos = [
     }
 ]
 
+for(let i = 0; i < repos.length; i++) {
+
+    // console.log("Title: " + repos[i].title);
+    // console.log("URL: " + repos[i].url);
+    console.log(
+        `
+        if git clone ${repos[i].url} ${repos[i].title.toLowerCase()} && cd ${repos[i].title.toLowerCase()} && rm -rf .git && cd ..; then echo "${repos[i].title.toUpperCase()} Clone Successfull!!!"
+        else echo "Error, ${repos[i].title.toUpperCase()} Github Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
+        fi
+        `);
+
+}
