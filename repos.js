@@ -1,3 +1,14 @@
+// let repos=[];let cards = document.querySelectorAll('.wb-break-all');
+// for (let card of cards) {
+//     let a = card.querySelector('a');
+//     repos.push({
+//         title: a.innerText,
+//         url: a.href
+//     });
+// }
+// let jsonObject = JSON.stringify(repos);
+
+// console.log(jsonObject);
 
 const repos = [
     {
