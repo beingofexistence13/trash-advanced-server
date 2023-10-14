@@ -1,4 +1,5 @@
-[
+
+const repos = [
     {
         "title": "trash-advanced-server",
         "url": "https://github.com/beingofexistence/trash-advanced-server"
@@ -160,3 +161,4 @@
         "url": "https://github.com/beingofexistence/threejs-nextjs"
     }
 ]
+
