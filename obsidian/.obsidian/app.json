@@ -1,0 +1,13 @@
+{
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "spellcheck": true,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "foldHeading": true,
+  "readableLineLength": false
+}
