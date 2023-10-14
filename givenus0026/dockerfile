@@ -1,0 +1,20 @@
+# Use the official Node.js 16 image from Docker Hub
+FROM node:16
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install --force
+
+# Copy the rest of your app's source code from your host to your image filesystem.
+COPY . .
+
+# Make port 3000 available to the world outside this container
+EXPOSE 3000
+
+# Run the command "npm run start" inside your image filesystem
+CMD [ "npm", "run", "start" ]

@@ -1,0 +1,24 @@
+{
+  "name": "code-server-heroku",
+  "description": "A code-server environment designed to run in your Heroku",
+  "repository": "https://github.com/cdr/deploy-code-server",
+  "logo": "https://avatars.githubusercontent.com/u/1375?s=200&v=4",
+  "keywords": [
+    "node",
+    "express",
+    "code-server",
+    "cloud-development",
+    "heroku-api"
+  ],
+  "env": {
+    "GIT_REPO": {
+      "description": "URL of a git repo to clone (optional)",
+      "required": false
+    },
+    "PASSWORD": {
+      "description": "Create a password to log in to code-server with",
+      "required": true
+    }
+  },
+  "stack": "container"
+}
