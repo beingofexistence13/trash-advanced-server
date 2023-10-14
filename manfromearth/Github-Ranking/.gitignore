@@ -1,0 +1,9 @@
+access_token.txt
+.ipynb_checkpoints
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+_site/
+.idea/
+__pycache__
+*.pyc

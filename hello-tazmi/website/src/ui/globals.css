@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body,
+.main {
+
+
+  position: relative;
+  min-height: 100vh;
+
+}
+
+/* body {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+} */
+
+canvas {
+  width: 100% !important;
+  min-height: 100% !important;
+}
+
+a,
+a:hover,
+a:link {
+
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+
+}
+
+.hackIn__container {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+
+  color: #fff !important;
+  border: none;
+  outline: none;
+  background: transparent !important;
+
+  /* border: 1px solid rgb(255, 255, 255); */
+
+
+
+
+  height: 100%;
+}
+
+/* Desktop */
+@media screen and (min-width: 600px) {
+
+  /* body {
+    padding-left: 40px;
+    min-height: 100vh;
+    max-width: 100%;
+  } */
+  .mobile {
+
+    display: none !important;
+
+  }
+
+  .bottombar__container {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (min-width: 50px) and (max-width: 360px) {
+
+
+  * {
+
+    font-size: 3.5vw !important;
+
+
+  }
+
+
+}
+
+
+
+
+
+
+*{
+
+  /* background: red !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+  padding-top: 50px;
+  padding-left: 50px;
+
+}

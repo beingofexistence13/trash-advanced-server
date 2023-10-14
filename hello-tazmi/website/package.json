@@ -1,0 +1,36 @@
+{
+  "name": "next13-redux-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "@react-three/drei": "^9.56.7",
+    "@react-three/fiber": "^8.10.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "daisyui": "^2.50.0",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "styled-components": "^5.3.6",
+    "styled-icons": "^10.47.0",
+    "three": "^0.149.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
