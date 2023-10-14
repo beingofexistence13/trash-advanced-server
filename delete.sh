@@ -48,5 +48,5 @@ do
     repo_name=$(echo $repo | cut -d'/' -f5)
 
     # Use curl to send DELETE request to GitHub API
-    curl -X DELETE -H "Authorization: token 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" "https://api.github.com/repos/$owner/$repo_name"
+    curl -X DELETE -H "Authorization: token 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" "https://api.github.com/repos/$owner/$repo_name"
 done
