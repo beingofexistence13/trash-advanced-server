@@ -152,12 +152,12 @@ const repos = [
 for(let i = 0; i < repos.length; i++) {
 
     // console.log("Title: " + repos[i].title);
-    // console.log("URL: " + repos[i].url);
-    console.log(
-        `
-        if git clone ${repos[i].url} ${repos[i].title.toLowerCase()} && cd ${repos[i].title.toLowerCase()} && rm -rf .git && cd ..; then echo "${repos[i].title.toUpperCase()} Clone Successfull!!!"
-        else echo "Error, ${repos[i].title.toUpperCase()} Github Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
-        fi
-        `);
+    console.log(`"${repos[i].url}"`);
+    // console.log(
+    //     `
+    //     if git clone ${repos[i].url} ${repos[i].title.toLowerCase()} && cd ${repos[i].title.toLowerCase()} && rm -rf .git && cd ..; then echo "${repos[i].title.toUpperCase()} Clone Successfull!!!"
+    //     else echo "Error, ${repos[i].title.toUpperCase()} Github Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
+    //     fi
+    //     `);
 
 }
