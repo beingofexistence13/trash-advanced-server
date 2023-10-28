@@ -1,0 +1,119 @@
+@import url(./variables.css);
+
+
+footer{
+    
+    background: var(--body-bg);
+    border-top:var(--border-color);
+    display: grid;
+    grid-template-rows: 1fr 1fr 50px;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20%;
+    /* column-gap: 1fr; */
+    
+    /* place-items: center; */
+    
+    min-height: 300px;
+    width: 100%;
+    
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    
+    padding: 0 10% !important;
+    padding-top: 30px !important;
+    margin-top: 10rem !important;
+}
+footer h1{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px !important;
+    
+    height: 20px;
+    min-width: 100% !important;
+    
+    /* padding-top: 5vh !important; */
+    
+}
+footer ul{
+    
+    /* padding-left: 10% !important; */
+}
+.main-links{
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    
+    margin-top: 10px !important;
+    
+}
+#main-link4 li,#main-link2 li{
+    
+    display: flex;
+    /* justify-content: right; */
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+#main-link1 li,#main-link3 li{
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: left; */
+    justify-content: center;
+    
+}
+
+/* #main-link1 li a,#main-link2 li a{
+    
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    
+    width: 100%;
+} */
+/* #main-link3 li a,#main-link4 li a{
+    
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    
+    width: 100%;
+    
+} */
+#pf-ul4,#pf-ul3{
+
+    
+    margin-bottom: 50px !important;
+}
+#copyright{
+    
+    border-top: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    width: 100%;
+    
+    margin-inline: auto !important;
+}
+
+
+
+
+
+
+
+footer a{
+    
+    font-size: 15px !important;
+    /* color: #9100FF !important; */
+}

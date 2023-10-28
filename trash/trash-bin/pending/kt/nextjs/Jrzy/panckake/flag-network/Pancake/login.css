@@ -1,0 +1,94 @@
+@import url(./variables.css);
+
+/* :root{
+    
+    --border-color: 1px solid #EAEAEA;
+    
+} */
+
+@keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+#login_wrapper{
+    
+    display: none !important;
+    /* animation: menuPopup 0.8s ease forwards; */
+    background: var(--primary1o1-bg);
+    border-radius: 15px;
+    /* background: #FFFFFF; */
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    
+    
+    height: 200px;
+    width: 330px;
+    
+    
+    z-index: 1000 !important;
+    
+}
+#login_wrapper.active{
+    
+    display: flex !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+   
+    
+}
+
+#wallet-connect_container,#metamask_container{
+    
+    /* background: #F4F5FF; */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    /* text-align: center; */
+    
+    min-height: 50px;
+    width: 85%;
+  
+  
+}
+#login_header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    width: 80%;
+    height: 50px;
+    
+}
+.login-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 50px;
+    /* width: 200px; */
+}

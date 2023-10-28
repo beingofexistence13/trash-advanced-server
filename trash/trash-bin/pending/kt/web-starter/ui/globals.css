@@ -1,0 +1,213 @@
+@import url(./tailwind.css);
+@import url(./openprops.css); 
+@import url(./animation/animation.css);
+@import "variable/variable.css";
+@import "component/component.css";
+
+    
+ @keyframes skelaton{
+    0%{
+        background: hsla(175, 100%, 99%, 1);
+    }
+    100%{
+        
+        background: hsla(182, 100%, 92%, 1);
+        
+    }
+ }
+
+*,*::before,*::after{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.skelaton{
+    
+    animation: skelaton 1s linear infinite alternate;
+    
+}
+body{
+    
+    background: #FFFFFF;
+    min-height: 100vh;
+    width: 100%;
+    
+    
+    padding-top: 125px;
+}
+main{
+    
+    background: #FFFFFF;
+    
+    height: 100vh;
+    width: 100%;
+    
+}
+footer{
+    
+    
+    border-top: var(--border-color);
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Will 💬🤔 think later */
+    .pc,.pc-flex,.pc-grid{
+        display: none;
+    }
+    .mb-flex{
+        display: flex;
+    }
+    .mb-grid{
+        display: grid;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pc */
+@media(min-width:900px){
+
+    
+    main,footer{
+        
+        position: relative;
+        left: 85px;
+        
+        width: calc(100% - 85px);
+        
+    }
+
+    .mb,.mb-flex,.mb-grid{
+        display: none !important;
+    }
+    .pc{
+        display: block;
+    }
+    .pc-flex{
+        display: flex;
+    }
+    .pc-grid{
+        display: grid;
+    }
+    .pc-ml-24{
+        
+        margin-left: 18rem !important;
+    }
+    
+
+
+}
+
+
+
+
+
+

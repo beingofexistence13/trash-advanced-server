@@ -1,0 +1,40 @@
+    --${mainChilds.className}-backGround = #FFFFFF;
+    --${mainChilds.className}-display = block;
+    --${mainChilds.className}-flex = 100% / 100%;
+    --${mainChilds.className}-alignItems = left;
+    --${mainChilds.className}-justifyContent = left;
+    --${mainChilds.className}-columnGap = 0px;
+    --${mainChilds.className}-rowGap = 0px;
+    --${mainChilds.className}-grid = 1fr / 1fr;
+    --${mainChilds.className}-gridGap = 0px;
+    --${mainChilds.className}-animation = animation 1s linear infinite ;
+    --${mainChilds.className}-border = none;
+    --${mainChilds.className}-boxShadow = none;
+    --${mainChilds.className}-borderRadius = none;
+    --${mainChilds.className}-color = #000000;
+    --${mainChilds.className}-cursor = pointer;
+    --${mainChilds.className}-clip = none;
+    --${mainChilds.className}-font = 1rem bold 900;
+    --${mainChilds.className}-filter = brightness(150%);
+    --${mainChilds.className}-transform = none;
+    --${mainChilds.className}-transition = all 1s linear infinite;
+    --${mainChilds.className}-textAlign = left;
+    --${mainChilds.className}-perspective = none;
+    --${mainChilds.className}-overflow = hidden;
+    --${mainChilds.className}-opacity = 1;
+    
+    --${mainChilds.className}-margin = 0 0 0 0;
+    --${mainChilds.className}-paddin = 0 0 0 0;
+    
+    --${mainChilds.className}-position = static;
+    --${mainChilds.className}-top = 0;
+    --${mainChilds.className}-left = 0;
+    
+    --${mainChilds.className}-minHeight = 25px;
+    --${mainChilds.className}-maxHeight = 100vh;
+    --${mainChilds.className}-minWidth = 360px;
+    --${mainChilds.className}-maxWídth = 100%;
+    --${mainChilds.className}-height = 50px;
+    --${mainChilds.className}-width = 50px;
+    
+    --${mainChilds.className}-zIndex = 1;

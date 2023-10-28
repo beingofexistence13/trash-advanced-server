@@ -1,0 +1,555 @@
+@import url(./variables.css);
+
+/* .pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
+    display: none;
+} */
+.pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="sunny-outline"]{
+    display: none;
+}
+
+#pro_navbartop_container{
+    
+    /* background:
+    rgba( 255, 255, 255, 0.5 ); */
+    /* box-shadow:
+    0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter:
+    blur( 10.5px );
+    -webkit-backdrop-filter:
+    blur( 10.5px );
+    /* border-radius:
+    10px; */
+    /* border:
+    1px solid rgba( 255, 255, 255, 0.18 ); */    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: var(--border-color);
+    background: var(--glass-bg);
+    
+    height: 70px;
+    width: 100% !important;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 5%;
+    
+    z-index: 5001;
+}
+
+
+/* #pro_navbartop_container img{
+    
+    min-height: 45px;
+    min-width: 45px;
+    
+} */
+
+
+#pro_navbartop_container ul {
+
+  overflow-x: auto;
+overflow-x: hidden;  
+    display: grid;
+    grid-template-columns: 40px 35px 35px 25px auto;
+    column-gap: 13px;
+
+    height: 70px;
+    width: 100% !important;
+
+
+    z-index: 100 !important;
+}
+
+.pnt_divider {
+
+
+
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pnt_divider img {
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: var(--primary1o2-bg);
+
+    height: 30px;
+    width: 40px;
+
+}
+
+.pnt-li{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* height: 50px; */
+    min-width: 100%;
+}
+.pnt-it{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pnt-it1,#pnt-it4,#pnt-it5,#pnt-it2,#login_header .icon{
+    
+    background: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 35px;
+    width: 35px;
+}
+.pnt-it1{
+    
+    height: 40px;
+    width: 40px;
+
+}
+
+/* #pnt-in{
+    
+    font-size: 20px;
+    color: #000000;
+} */
+
+
+
+
+
+
+
+
+
+
+
+#pnt-it5.active ion-icon[name="sunny-outline"] {
+    display: block;
+}
+
+#pnt-it5.active ion-icon[name="moon-outline"] {
+    display: none;
+}
+#pro_navbartop_container .wallet{
+    
+    border: var(--border-color) !important;
+    font-size: 10px !important;
+    padding: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:900px){
+    .p-s-d{
+        
+      left: 70% !important;
+      
+    }
+    
+    .pc{
+        display: block !important;
+    }
+    .mb{
+        
+        display: none !important;
+    }
+    
+    #pnt-lg{
+        
+        /* background: red; */
+        width: 60px !important;
+        height: 60px !important;
+    }
+    #pnt-lg img{
+        
+        
+        height: 35px !important;
+        width: 35px !important;
+    }
+
+    
+    #pro_navbartop_container ul{
+        
+        
+        grid-template-columns: 40px 35px 35px auto 150px;
+        grid-gap: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#pro_navbartop_container li{
+    
+    min-width: 100% !important;
+    
+}
+
+
+
+
+
+
+
+.notifications-container{
+    
+    display: none !important;
+    
+}
+.notifications-container *{
+    
+    font-size: 20px !important;
+    /* color: red !important; */
+}
+
+.notifications-container.show{
+    
+    display: grid !important;
+    background: var(--primary-bg) !important;
+    
+    position: relative !important;
+    top: 70px;
+    right: 0 !important;
+    margin-inline: auto !important;
+    
+    
+
+    z-index: 10000 !important;
+}
+.notifications-container.show .drop__card{
+    
+    background: var(--primary1o1-bg) !important;
+    
+}
+
+
+    .notifications-toggler.close ion-icon[name="notifications-outline"]{
+        
+        display: none !important;
+    }
+    
+    .notifications-toggler.close ion-icon[name="close-outline"]{
+        
+        display: block !important;
+    }
+
+
+
+
+
+
+@media(min-width:900px){
+    
+    
+    .notifications-container{
+        
+    display: none !important;
+    position: fixed !important;
+    top: 70px !important;
+    right: 50px !important;
+    margin: 0 !important;
+        
+    }
+    .notifications-container.show{
+        
+        display: grid !important;
+        background: var(--primary-bg) !important;
+        
+        position: fixed !important;
+        top: 70px !important;
+        left: 80px !important;
+        margin: 0 !important;
+        
+        z-index: 10 !important;
+    }
+    
+    .notifications-container.show .drop__card{
+        
+        background: var(--primary1o1-bg) !important;
+        
+    }
+    
+}
+
+
+
+
+
+.navbar-end{
+  
+ 
+  min-height: 70px !important;
+  height: auto;
+  min-width:100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: right;
+  flex-direction: row !important;
+  column-gap: 1px;
+   
+   
+}
+
+.navbar-end svg{
+  
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.dn{
+  
+  display: none !important;
+}
+
+
+
+
+
+
+
+.wallet-adapter-modal-wrapper{
+  
+  min-height: 600 !important;
+  
+}
+
+
+
+
+
+
+
+.navbar-end{
+    
+    
+    overflow-y: hidden;
+  overflow-x: auto;    
+}
+
+
+
+
+
+.btn{margin: 0;padding: 0;}
+
+
+.p-s-d{
+    
+  display: none !important;
+  border-radius: 10px;
+  background: var(--primary-bg);
+  position: fixed !important;
+  top: 72px !important;
+  left: 0 !important;
+  
+  
+  flex-direction: column !important;
+  row-gap: 5px !important;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 200px !important;
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+
+.p-s-d li{
+
+  display: flex !important;
+ 
+flex-direction: row !important;  
+  align-items: center;
+  justify-content: center;
+   
+  width: 300px;
+  
+  
+}
+
+
+
+
+
+
+/* .p-s-d-toggler::before{
+    
+    content: "";
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: red;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 5px;
+    width: 5px;
+    
+    
+} */
+    .high-lighter{
+        
+        min-width: 15px !important;
+        min-height: 15px !important;
+        font-size: 5px !important;
+        color: #FFFFFF !important; 
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FF0000;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        
+        position: relative;
+        top: -10px;
+        right: 10px;
+        
+    }    
+
+
+    .notifications-toggler > div{
+        
+        /* background: red; */
+        position: relative;
+        background: transparent !important;
+        
+        /* width: 35px; */
+        /* height: 35px; */
+    }
+    /* .notifications-toggler > div{
+        
+    } */  
+    .notifications-toggler .main-ic{
+        
+        background: var(--primary-bg) !important;
+        /* background: red !important; */
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 20px !important;
+        min-width: 36px !important;
+        min-height: 35px !important;
+        
+        
+        /* margin-left: 20px !important; */
+        
+    }
+    
+    .notifications-toggler:hover .high-lighter{
+        
+        /* display: hidden !important; */
+        visibility: hidden;
+    }
+/* .notifications-toggler div::after{
+    
+    content: "";
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: red;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 5px;
+    width: 5px;
+    
+    
+} */
+
+
+
+
+.wallet-adapter-button{
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+  width: 100%;
+  max-width: 150px;
+  
+  text-overflow: ellipsis;
+  text-align: center;
+  
+  
+  padding: 0 !important;
+}
+.wallet-adapter-button *{
+    
+    z-index: 20000 !important;
+    /* background: red !important; */
+    /* color: red !important; */
+    
+}
+
+
+
+
+
+/* .pnt-lg img{
+    
+    min-width: 100px !important;
+    min-height: 200px !important;
+    
+} */

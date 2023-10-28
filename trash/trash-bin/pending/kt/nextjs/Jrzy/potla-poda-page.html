@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jrzy</title>
+    
+    <!-- <link rel="stylesheet" href="../ui/globals.css"> -->
+    
+    
+    <!-- Boostrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" /> -->
+    
+    <!-- <h1>Open props</h1> -->
+    <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../ui/tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="./drag-drop-card/assets/css/styles.css">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+</head>
+<body>
+    
+    
+    
+    
+    <div class="overlay"></div>
+    <!-- 
+    
+    <h1>Navbartop-Emmet</h1> 
+    nav#pro_navbartop_container>ul#pnt-ul>li.pnt-li*4
+    ul#ss-ul>li.ss-li#ss-li$*7>ion-icon[name="menu-outline"].ss-ic+a[href="#"]{item$}.ss-a
+    -->
+    
+    
+    <!-- Navbar top -->
+    <nav id="pro_navbartop_container" class=" shadow-sm ">
+        <ul id="pnt-ul">
+            
+            
+            
+            <li class="pnt-li pnt-li1" >
+                
+                
+                <div id="pnt-it1" class="pnt-it pnt-it1">
+                    
+                    
+                    <ion-icon name="menu-outline" id="pnt-in"></ion-icon>
+                    <ion-icon name="close-outline" id="pnt-in"></ion-icon>
+                    
+                    
+                </div>
+               
+                
+            </li>
+            
+            <li class="pnt-li pnt-li4 ">
+                
+                <div id="pnt-it5" class="pnt-it">
+                    
+                    <ion-icon name="sunny-outline"></ion-icon>
+                    <ion-icon name="moon-outline"></ion-icon>
+                    
+                </div>
+                
+                
+            </li>
+            
+            <li class="pnt-li pnt-li2 notifications-toggler" >
+                
+                <div class="pnt-it" id="pnt-it2">
+                    
+                    
+                    
+                    <ion-icon class="pnt-it2" name="notifications-outline" id="pnt-in"></ion-icon>
+                    <ion-icon class="pnt-it2" name="close-outline" id="pnt-in"></ion-icon>
+                    
+                    
+                    
+                    
+                </div>
+                <!-- <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> -->
+                
+            </li>
+            
+            
+            <li class="pnt_divider pnt-li3 ">
+                
+                <div id="pnt-lg" class="pnt-it">
+                    
+                    <!-- <img src="./jrzy-logo.png" alt="logo"> -->
+                    
+                </div>
+                
+                
+            </li>
+            
+            
+            <li class="pnt-li pnt-li4 ">
+                
+                <div id="pnt-it5" class="pnt-it">
+                    
+                    <!-- <ion-icon name="sunny-outline"></ion-icon> -->
+                    <ion-icon name="settings-outline"></ion-icon>
+                    
+                </div>
+                
+                
+            </li>
+            
+            
+            <li class="pnt-li pnt-li5" >
+                
+                <div id="login-toggler" class="pnt-it1">
+                    
+                    
+                    <!-- <ion-icon name="map-outline" id="pnt-in"></ion-icon> -->
+                    <ion-icon name="log-in-outline"></ion-icon>                    
+                    
+                </div>
+                
+                
+                
+            </li>
+            
+            
+            
+        </ul>
+    </nav>
+  <div id="small-sidebar" class="close shadow-sm " >
+                    
+                    <ul id="ss-ul">
+                        
+                        <!-- <li class="ss-create c">
+                            
+                            <ion-icon name="add-outline"></ion-icon>
+                            <a href="#"> Create </a>
+                            
+                        </li> -->
+                        
+                        <!-- <li class="ss-search-container c">
+                            
+                            
+                            <ion-icon name="add-outline"></ion-icon>
+                            <input type="search" name="ss-search" id="ss-search" placeholder="Search for joy">
+                            <ion-icon name="add-outline"></ion-icon>
+                            
+                            
+                        </li> -->
+                        
+                        <li class="ss-li hover:shadow-2xl" id="ss-li1">
+                            
+                            <Link passHref href="/home">
+                                
+                                <ion-icon name="home-outline"></ion-icon>
+                                <a href="#">Home</a>
+                                
+                            </Link>                            
+                            
+                        </li>
+                        <Link passHref href="/exchange">
+                        
+                        <li class="ss-li hover:shadow-2xl" id="ss-li2">
+                            
+                            
+                            
+                            
+                                
+                                <ion-icon name="cash-outline"></ion-icon>
+                                <a href="#">Exchange</a>                               
+                                
+                            
+ 
+                        </li>
+                            </Link>                        
+                        <li class="ss-li hover:shadow-2xl" id="ss-li2">
+                            
+                            
+                            
+                            
+                            <Link passHref href="/nft">
+                            
+                                <ion-icon name="diamond-outline"></ion-icon>
+                                <a href="#">Nft</a>
+                                
+                                
+                            </Link>                            
+                            
+                            
+                        </li>
+                        
+                        <li class="ss-li hover:shadow-2xl" id="ss-li2">
+                            
+                            
+                            
+                            
+                            <Link passHref href="/stack">
+                                <ion-icon name="analytics-outline"></ion-icon>
+                                <a href="#">Stack</a>
+                                
+                                
+                            </Link>                            
+                            
+                            
+                            
+                        </li>
+                        <li class="ss-li hover:shadow-2xl" id="ss-li2">
+                            
+                            
+                            
+                            
+                            <Link passHref href="/airdrop">
+                                
+                            
+                                <ion-icon name="egg-outline"></ion-icon>
+                                <a href="#">Airdrop</a>
+                                
+                            </Link>                            
+                            
+                            </li>
+                        
+                        <li class="ss-li hover:shadow-2xl" id="ss-li3">
+                            
+                            
+                            
+                            
+                            <Link passHref href="/ido_event">
+                                
+                                
+                            
+                                <ion-icon name="medal-outline"></ion-icon>
+                                <a href="#">Ido-Event</a>
+                            
+                            </Link>                            
+                            
+                        </li>
+                        <li class="ss-li hover:shadow-2xl" id="ss-li4">
+                            
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                            <a href="#">Ido</a>
+                        </li>
+                        <li class="ss-li hover:shadow-2xl" id="ss-li5">
+                            
+                            
+                            
+                            
+                            
+                            <Link passHref href="/gamefi">
+                                
+                            
+                                
+                                <ion-icon name="game-controller-outline"></ion-icon>
+                                <a href="#">GameFi</a>
+                                
+                            </Link>                            
+                            </li>
+                        <li class="ss-li hover:shadow-2xl" id="ss-li7">
+                            
+                            
+                            
+                            
+                            <Link passHref href="/support_ukrane" >
+                                
+                                
+                                <ion-icon name="sparkles-outline"></ion-icon>
+                                <a href="#">Support Ukraine</a>
+                                
+                            </Link>                            
+                            
+                            
+                        </li>
+                        
+                        <!-- <li class="line"></li> -->
+                        
+                        
+                        <div class="strat-line">
+                            
+                            <li class="st st1" >
+                                
+                                <div class="st-main" id="st-m1">
+                                    
+                                    <ion-icon name="list-outline"></ion-icon>
+                                    <a href="#">More</a>
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="st-toggle" >
+                                   
+                                    <a href="#">Twitter</a>
+                                    <a href="#">Discord</a>
+                                    <a href="#">Facebook</a>
+                                    <a href="#">Telegram</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            
+                            <li class="st st2" >
+                                
+                                <div class="st-main" id="st-m2">
+                                    
+                                    
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                    <a href="#">Favorite</a>
+                                    
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                </div>
+                                <div class="st-toggle" >
+                                    
+                                    <a href="#">Exchange</a>
+                                    <a href="#">Nft</a>
+                                    <a href="#">Airdrop</a>
+                                    <a href="#">Gamefi</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            
+                            
+                            <li class="st st3" >
+                                
+                                <div class="st-main" id="st-m3">
+                                    
+                                    <ion-icon name="book-outline"></ion-icon>
+                                    <a href="#">Docs</a>
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                </div>
+                                
+                                <div class="st-toggle" >
+                                    
+                                    <a href="#">All</a>
+                                    <a href="#">Assigned to me</a>
+                                    <a href="#">Shared with me</a>
+                                    <a href="#">Private</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            <li class="st st4" >
+                                
+                                <div class="st-main" id="st-m4">
+                                    
+                                    <ion-icon name="bar-chart-outline"></ion-icon>
+                                    <!-- <ion-icon name="list-outline"></ion-icon> -->
+                                    <a href="#">Analysis</a>
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="st-toggle" >
+                                   
+                                    <a href="#">Twitter</a>
+                                    <a href="#">Discord</a>
+                                    <a href="#">Facebook</a>
+                                    <a href="#">Telegram</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            
+                            <li class="st st5" >
+                                
+                                <div class="st-main" id="st-m5">
+                                    
+                                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                                    <!-- <ion-icon name="heart-outline"></ion-icon> -->
+                                    <a href="#">Uploads</a>
+                                    
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                </div>
+                                <div class="st-toggle" >
+                                    
+                                    <a href="#">Exchange</a>
+                                    <a href="#">Nft</a>
+                                    <a href="#">Airdrop</a>
+                                    <a href="#">Gamefi</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            
+                            
+                            <li class="st st6" >
+                                
+                                <div class="st-main" id="st-m6">
+                                    
+                                    <ion-icon name="library-outline"></ion-icon>
+                                    <!-- <ion-icon name="bar-chart-outline"></ion-icon> -->
+                                    <!-- <ion-icon name="book-outline"></ion-icon> -->
+                                    <a href="#">Library</a>
+                                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    
+                                </div>
+                                
+                                <div class="st-toggle" >
+                                    
+                                    <a href="#">All</a>
+                                    <a href="#">Assigned to me</a>
+                                    <a href="#">Shared with me</a>
+                                    <a href="#">Private</a>
+                                    
+                                </div>
+                                
+                            </li>
+                            
+                            
+                        </div>
+                        
+                        
+                    </ul>
+                    
+                    
+                </div>
+    <!-- Login Container -->
+    <div id="login_wrapper" class="shadow-lg">
+        <div id="login_header">
+            <h5>Login with your wallet</h5>
+            <div class="icon">
+                <ion-icon name="close-outline"></ion-icon>
+
+            </div>
+            <!-- <ion-icon name="close-outline"></ion-icon> -->
+            <!-- <ion-icon name="moon-outline"></ion-icon> -->
+
+        </div>
+
+        <div id="metamask_container" class="btn_login_metamask">
+            <img src="./pthantom.png" alt="Metamask" height="30" width="30">
+            <div class="login-text">
+
+                Pantham
+
+            </div>
+        </div>
+
+        <!-- <div id="wallet-connect_container" class="btn_login_wallet-connect">
+            <img src="./wallet-connect.svg" alt="Wallet-connect" height="48" width="48">
+            <div class="login-text">
+        
+                Wallet-connect
+        
+            </div>
+        </div> -->
+
+    </div>
+    <!-- Notifications Container     #notifications-container>ul#n-ul>li.n-li.n-li$*-->
+        <div class="drop notifications-container">
+            <div class="drop__container" id="drop-items">
+                
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img3.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Robbie Ford</h1>
+                            <span class="drop__profession">Ui/Ux design</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="drop__card">
+                    <div class="drop__data">
+                        <img src="./drag-drop-card/assets/img/img4.jpg" alt="" class="drop__img">
+                        <div>
+                            <h1 class="drop__name">Jenny Lit</h1>
+                            <span class="drop__profession">Digital marketing</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#" class="drop__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    
+    <!-- Main -->
+   <main>
+       
+       <div id="pro_main_container" class="space-y-0.5">
+           
+           
+           <!-- <div id="potla-poda" class="sec">
+               
+               Hello
+               <div class="notifications-toggler">hi</div>
+               
+               
+           </div> -->
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+          <!-- <h1>Hello Crypto-Dragons</h1> -->
+           <div id="sec1" class="sec">
+               
+               <div id="sec1_top">
+                   <div id="sec1_top_img_container">
+                       
+                       <!-- <img src="./Crypto-Dragons/two-dragons.png" alt="Imgage" height="100" width="300"> -->
+                       
+                   </div>
+                   <div id="sec1_top_intro w-100">
+                       
+                       <h1 class="op-bg-tx font-black">Discover, explore, and collect NFTs from incredible creators on Solana</h1>
+                       <h4 class="text-muted op">Tools built by creators, for creators, owned by creators.</h4>
+                       
+                   </div>
+                   
+               </div>
+               <div id="sec1_center" class="mt-0.5">
+                   
+                   <div id="sec1_btn_container" class="grid-gap-3">
+                       <a href="#" class="sec1_btns btn btn-primary ion-c"> Docs </a>
+                       <a href="#" class="sec1_btns btn btn-primary ion-c"> Rarity spinner </a>
+                       <a href="#" class="sec1_btns btn btn-primary ion-c"> Learn more</a>
+                       
+                       
+                   </div>
+                   
+                   <div id="secured" class="d-f-c">
+                       
+                       <h3>🔐 Well secured</h3>
+                       <h4 class="text-muted">Smart contract audit by . Doraemon lovers plus Man from Earth</h4>
+                   </div>
+                   
+               </div>
+               
+               <!-- ul#sec1_bottom>li.s1b-li*4>h2{ item$ }.s1b-h+h4.s1b-d{ detail$ }-->
+               <ul id="sec1_bottom">
+                   <li class="s1b-li">
+                       <h2> Art & Technology </h2>
+                       <h4 class="s1b-d"> A complex DNA with hundreds of genes variations and various color layers. </h4>
+                   </li>
+                   <li class="s1b-li">
+                       <h2> Jrzy Coin </h2>
+                       <h4 class="s1b-d"> The token of Jrzy project and will be used in our Metaverse. </h4>
+                   </li>
+                   <li class="s1b-li">
+                       <h2> Breeding on blockchain </h2>
+                       <h4 class="s1b-d"> Choose a couple for your Dragon, breed it and gain your unique offspring. </h4>
+                   </li>
+                   <li class="s1b-li">
+                       <h2> First NFT battles </h2>
+                       <h4 class="s1b-d"> Battle on the Arena, and win SOLereum or NFT Dragons. </h4>
+                   </li>
+               </ul>
+               
+               
+           </div>
+           
+           
+           
+           
+           
+           
+           
+           
+           <div id="sec2" class="sec">
+               <!-- <div id="paul-pogba-card">
+                   
+                   <div class="pogba-intro">
+                       
+                       Partnering with 
+                       <h1 class="glow-text">Paul pogba</h1>
+                       Father of Dragons
+                       <div class="ppl">
+                           <a href="#">🐦51M follow..</a>
+                           <a href="#">🤩10M follow..</a>
+                           
+                           
+                       </div>
+                        
+                   </div>
+                   
+                   
+                   <img src="./Crypto-Dragons/paul-pogba.jpg" alt="Paul-pogba" height="300" width="300">
+                   
+               </div> -->
+               <!-- <div class="extra-text-1o1">
+                   
+                   <div class="main-tx">
+                       
+                       <img src="./Crypto-Dragons/logo.png" alt="logo" height="50" width="50">
+                       <h1 class="glow-text">Crypto-Dragons</h1>
+                       
+                       
+                   </div>
+                   is a unique project bult on top of SOLerium Blockchain.
+                   here Dragons can 
+                   <div class="main-tx">
+                       <img class="img1-gd" src="./Crypto-Dragons/dark_dragon.png" alt="op" >
+                       <h1 class="glow-text">breed,</h1>
+                       
+                   </div>
+                   
+                   <div class="main-tx">
+                       
+                   
+                       <img src="./Crypto-Dragons/dragon-vs.png" alt="op" height="30" width="30">
+                       <h1 class="glow-text">Battle on Arena,</h1>
+                       
+                       
+                   </div>
+                   <div class="main-tx">
+                       
+                       
+                       
+                        <img src="./Crypto-Dragons/SOL.png" alt="ipj" height="30" width="30"><h1 class="glow-text">earn SOLerium,</h1>
+                       
+                   </div>
+                   and more.
+                   
+                   
+                   
+                   
+               </div> -->
+               <!-- <div class="extra-text-1o2">
+                   
+                   <div class="main-tx">
+                       How the Crypto-Dragons<h1 class="glow-text">Meteverse works</h1>
+                   </div>
+                   
+                   
+                   
+                   
+                   
+                </div> -->
+                
+                
+               <div class="extra-text-1o3">
+                   
+                   <!-- <div class="text main-tx">
+                       Use your own dragon on <h1 class="glow-text">Dragon Metaverse</h1>
+                   </div> -->
+                   <div id="presentation-top">
+                       
+                       <!-- <div id="pt-t">
+                           
+                           <div class="pt-t-1">
+                               
+                                <img src="./Crypto-Dragons/ptt-1.png" alt="yiy">
+                               <h4 class="text-muted main-tx">
+                                   Breed your Dragon and get an offspring
+                               </h4>
+                               
+                               
+                           </div>
+                           <div class="pt-t-2">
+                                <img src="./Crypto-Dragons/ptt-2.png" alt="yiy">
+                               <h4 class="text-muted main-tx">
+                                   
+                                   Get rewards from Dragon battles and marketplace
+                               </h4>
+                               
+                               
+                               
+                           </div>
+                           <div class="pt-t-3">
+                                <img src="./Crypto-Dragons/ptt-3.png" alt="yiy">
+                               <h4 class="text-muted main-tx">
+                                   Battle on the Arena with other Dragons
+                               </h4>
+                               
+                           </div>
+                           
+                           
+                           
+                       </div> -->
+                       <!-- <div id="pt-b">
+                           
+                           <img src="./Crypto-Dragons/presentation-egg1.png" alt="yiy">
+                           <img src="./Crypto-Dragons/presentation-egg2.png" alt="yiy">
+                           <img src="./Crypto-Dragons/presentation-egg3.png" alt="yiy">
+                           
+                           
+                       </div> -->
+                       
+                   </div>
+                   <div id="presentation-bottom " class=" mp-0">
+                       
+                       <!-- <div id="pb-t">
+                           
+                           <div class="glow-text main-tx b-tb pb-ttt">Eggs</div>
+                           <h4 class="text-muted main-tx mt-1">
+                               Mint your Egg to become a member of the unique Metaverse. An Egg is the first attribute in the Jrzy Metaverse from it a firstborn hatches. All of the Eggs are unique with their genetic combinations and are generated using AI algorithms.
+                               
+                           </h4>
+                           
+                           <div id="presentation-dragons">
+                               
+                                <img src="./Crypto-Dragons/presentation-dragon1.png" alt="yiy">
+                                <img src="./Crypto-Dragons/presentation-dragon2.png" alt="yiy">
+                                <img src="./Crypto-Dragons/presentation-dragon3.png" alt="yiy">
+                               
+                               
+                               
+                           </div>
+                       </div> -->
+                       <div id="pb-c">
+                           
+                           <!-- <div class="glow-text main-tx">Dragon</div> -->
+                           <!-- <h4 class="text-muted main-tx">
+                               
+                                Firstborn Dragons hatch from these Eggs and they will always differ from other Dragons with their unique DNA. The platform will give special rewards to their owners. Get your Firstborn today and enjoy extra benefits of the Dragons Metaverse!
+                              
+                           </h4> -->
+                           
+                           
+                       </div>
+                       <div id="pb-b">
+                           
+                           <!-- <h1>He</h1>
+                           
+                               li.da-li*36>img[src="./holaplex-images/nft-$.png"][alt="op"]+h4.text-muted{ #162$ }+h2.text-muted{ Jizzug The Voiceless $ }+.rayarity-btn{ common }+.price-btn{🏷️ 0.0$0 SOL}
+                           
+                           
+                           --> 
+                           
+                           <div class="glow-text main-tx pb-bt mp-0">Trending Listings</div>
+                           <!-- <h4 class="text-muted main-tx mt-1">
+                               Get your favorite NFT Dragons, collect them, breed and battle with other Dragons on the Arena.
+                           </h4> -->
+                           <div id="dragon-auction">
+
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-1.png" alt="op">
+                                   <h4 class="text-muted"> #1621 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 1 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00010 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-2.png" alt="op">
+                                   <h4 class="text-muted"> #1622 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 2 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00020 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-3.png" alt="op">
+                                   <h4 class="text-muted"> #1623 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 3 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00030 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-4.png" alt="op">
+                                   <h4 class="text-muted"> #1624 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 4 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00040 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-5.png" alt="op">
+                                   <h4 class="text-muted"> #1625 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 5 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00050 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-50.png" alt="op">
+                                   <h4 class="text-muted"> #1626 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 6 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00060 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-32.png" alt="op">
+                                   <h4 class="text-muted"> #1627 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 7 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00070 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-8.png" alt="op">
+                                   <h4 class="text-muted"> #1628 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 8 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00080 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-9.png" alt="op">
+                                   <h4 class="text-muted"> #1629 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 9 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00090 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-10.png" alt="op">
+                                   <h4 class="text-muted"> #16210 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 10 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00100 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-11.png" alt="op">
+                                   <h4 class="text-muted"> #16211 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 11 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00110 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-12.png" alt="op">
+                                   <h4 class="text-muted"> #16212 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 12 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00120 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-13.png" alt="op">
+                                   <h4 class="text-muted"> #16213 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 13 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00130 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-14.png" alt="op">
+                                   <h4 class="text-muted"> #16214 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 14 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00140 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-15.png" alt="op">
+                                   <h4 class="text-muted"> #16215 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 15 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00150 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-16.png" alt="op">
+                                   <h4 class="text-muted"> #16216 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 16 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00160 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-17.png" alt="op">
+                                   <h4 class="text-muted"> #16217 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 17 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00170 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-18.png" alt="op">
+                                   <h4 class="text-muted"> #16218 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 18 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00180 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-19.png" alt="op">
+                                   <h4 class="text-muted"> #16219 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 19 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00190 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-20.png" alt="op">
+                                   <h4 class="text-muted"> #16220 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 20 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00200 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-21.png" alt="op">
+                                   <h4 class="text-muted"> #16221 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 21 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00210 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-22.png" alt="op">
+                                   <h4 class="text-muted"> #16222 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 22 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00220 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-23.png" alt="op">
+                                   <h4 class="text-muted"> #16223 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 23 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00230 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-24.png" alt="op">
+                                   <h4 class="text-muted"> #16224 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 24 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00240 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-25.png" alt="op">
+                                   <h4 class="text-muted"> #16225 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 25 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00250 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-26.png" alt="op">
+                                   <h4 class="text-muted"> #16226 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 26 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00260 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-27.png" alt="op">
+                                   <h4 class="text-muted"> #16227 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 27 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00270 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-28.png" alt="op">
+                                   <h4 class="text-muted"> #16228 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 28 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00280 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-29.png" alt="op">
+                                   <h4 class="text-muted"> #16229 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 29 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00290 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-30.png" alt="op">
+                                   <h4 class="text-muted"> #16230 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 30 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00300 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-31.png" alt="op">
+                                   <h4 class="text-muted"> #16231 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 31 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00310 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-32.png" alt="op">
+                                   <h4 class="text-muted"> #16232 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 32 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00320 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-33.png" alt="op">
+                                   <h4 class="text-muted"> #16233 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 33 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00330 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-34.png" alt="op">
+                                   <h4 class="text-muted"> #16234 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 34 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00340 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-35.png" alt="op">
+                                   <h4 class="text-muted"> #16235 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 35 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00350 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-36.png" alt="op">
+                                   <h4 class="text-muted"> #16236 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 36 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00360 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-37.png" alt="op">
+                                   <h4 class="text-muted"> #16237 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 37 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00370 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-38.png" alt="op">
+                                   <h4 class="text-muted"> #16238 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 38 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00380 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-39.png" alt="op">
+                                   <h4 class="text-muted"> #16239 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 39 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00390 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-40.png" alt="op">
+                                   <h4 class="text-muted"> #16240 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 40 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00400 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-41.png" alt="op">
+                                   <h4 class="text-muted"> #16241 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 41 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00410 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-42.png" alt="op">
+                                   <h4 class="text-muted"> #16242 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 42 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00420 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-43.png" alt="op">
+                                   <h4 class="text-muted"> #16243 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 43 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00430 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-44.png" alt="op">
+                                   <h4 class="text-muted"> #16244 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 44 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00440 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-45.png" alt="op">
+                                   <h4 class="text-muted"> #16245 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 45 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00450 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-46.png" alt="op">
+                                   <h4 class="text-muted"> #16246 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 46 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00460 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-47.png" alt="op">
+                                   <h4 class="text-muted"> #16247 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 47 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00470 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-48.png" alt="op">
+                                   <h4 class="text-muted"> #16248 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 48 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00480 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-49.png" alt="op">
+                                   <h4 class="text-muted"> #16249 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 49 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00490 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./holaplex_images/nft-50.png" alt="op">
+                                   <h4 class="text-muted"> #16250 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 50 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.00500 SOL</div>
+                               </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-1.png" alt="op">
+                                   <h4 class="text-muted"> #1621 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 1 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0010 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-2.png" alt="op">
+                                   <h4 class="text-muted"> #1622 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 2 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0020 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-3.png" alt="op">
+                                   <h4 class="text-muted"> #1623 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 3 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0030 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-4.png" alt="op">
+                                   <h4 class="text-muted"> #1624 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 4 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0040 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-5.png" alt="op">
+                                   <h4 class="text-muted"> #1625 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 5 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0050 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-6.png" alt="op">
+                                   <h4 class="text-muted"> #1626 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 6 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0060 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-7.png" alt="op">
+                                   <h4 class="text-muted"> #1627 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 7 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0070 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-8.png" alt="op">
+                                   <h4 class="text-muted"> #1628 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 8 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0080 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-9.png" alt="op">
+                                   <h4 class="text-muted"> #1629 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 9 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0090 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-10.png" alt="op">
+                                   <h4 class="text-muted"> #16210 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 10 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0100 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-11.png" alt="op">
+                                   <h4 class="text-muted"> #16211 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 11 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0110 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-12.png" alt="op">
+                                   <h4 class="text-muted"> #16212 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 12 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0120 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-13.png" alt="op">
+                                   <h4 class="text-muted"> #16213 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 13 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0130 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-14.png" alt="op">
+                                   <h4 class="text-muted"> #16214 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 14 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0140 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-15.png" alt="op">
+                                   <h4 class="text-muted"> #16215 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 15 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0150 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-16.png" alt="op">
+                                   <h4 class="text-muted"> #16216 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 16 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0160 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-17.png" alt="op">
+                                   <h4 class="text-muted"> #16217 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 17 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0170 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-18.png" alt="op">
+                                   <h4 class="text-muted"> #16218 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 18 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0180 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-19.png" alt="op">
+                                   <h4 class="text-muted"> #16219 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 19 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0190 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-20.png" alt="op">
+                                   <h4 class="text-muted"> #16220 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 20 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0200 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-21.png" alt="op">
+                                   <h4 class="text-muted"> #16221 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 21 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0210 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-22.png" alt="op">
+                                   <h4 class="text-muted"> #16222 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 22 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0220 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-23.png" alt="op">
+                                   <h4 class="text-muted"> #16223 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 23 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0230 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-24.png" alt="op">
+                                   <h4 class="text-muted"> #16224 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 24 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0240 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-25.png" alt="op">
+                                   <h4 class="text-muted"> #16225 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 25 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0250 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-26.png" alt="op">
+                                   <h4 class="text-muted"> #16226 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 26 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0260 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-27.png" alt="op">
+                                   <h4 class="text-muted"> #16227 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 27 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0270 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-28.png" alt="op">
+                                   <h4 class="text-muted"> #16228 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 28 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0280 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-29.png" alt="op">
+                                   <h4 class="text-muted"> #16229 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 29 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0290 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-30.png" alt="op">
+                                   <h4 class="text-muted"> #16230 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 30 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0300 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-31.png" alt="op">
+                                   <h4 class="text-muted"> #16231 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 31 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0310 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-32.png" alt="op">
+                                   <h4 class="text-muted"> #16232 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 32 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0320 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-33.png" alt="op">
+                                   <h4 class="text-muted"> #16233 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 33 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0330 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-34.png" alt="op">
+                                   <h4 class="text-muted"> #16234 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 34 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0340 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-35.png" alt="op">
+                                   <h4 class="text-muted"> #16235 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 35 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0350 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./potla-poda-images/dragon-36.png" alt="op">
+                                   <h4 class="text-muted"> #16236 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 36 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0360 SOL</div>
+                               </li>
+
+                               <li class="da-li">
+                                   <img src="./Crypto-Dragons/dragon1-l.png" alt="op">
+                                   <h4 class="text-muted"> #1621 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 1 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0001 SOL</div>
+                               </li>
+
+                               
+                               <li class="da-li">
+                                   <img src="./Crypto-Dragons/dragon1-l.png" alt="op">
+                                   <h4 class="text-muted"> #1621 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 1 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0001 SOL</div>
+                               </li>
+                               
+                               <li class="da-li">
+                                   <img src="./Crypto-Dragons/dragon2-l.png" alt="op">
+                                   <h4 class="text-muted"> #1622 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 2 </h2>
+                                   <div class="rayarity-btn"> Legendary </div>
+                                   <div class="price-btn">🏷️ 0.0002 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./Crypto-Dragons/dragon3-l.png" alt="op">
+                                   <h4 class="text-muted"> #1623 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 3 </h2>
+                                   <div class="rayarity-btn"> common </div>
+                                   <div class="price-btn">🏷️ 0.0003 SOL</div>
+                               </li>
+                               <li class="da-li">
+                                   <img src="./Crypto-Dragons/dragon4-l.png" alt="op">
+                                   <h4 class="text-muted"> #1624 </h4>
+                                   <h2 class="text-muted"> Jizzug The Voiceless 4 </h2>
+                                   <div class="rayarity-btn"> Rare </div>
+                                   <div class="price-btn">🏷️ 0.0004 SOL</div>
+                               </li>
+                               
+                               
+                           </div>
+                           
+                           <a href="#" class="price-btn-1o1">Go to Marketplace</a>
+                           
+                       </div>
+                       
+                       <div id="mutant-dragons">
+                           
+                           <img class="mutant-ds" src="./Crypto-Dragons/mutant-dragon1.png" alt="op">
+                           <img class="mutant-ds" src="./Crypto-Dragons/mutant-dragon2.png" alt="op">
+                           
+                           <div  class=" main-tx">Get your <h1 class="glow-text main-tx">Mutant Dragons</h1></div>
+                           <h4 class="text-muted main-tx">
+                               Use the Secret Ingredient and get a new perfect creature using your Firstborn Dragon.
+                           </h4>
+                           <div id="csb" class="price-btn-1o1 glow-tx1">Coming Soon</div>
+                           
+                           
+                       </div>
+                       
+                       <!-- <h1>
+                               #testimonials>li.t-li*5>#glow-tx{ Hello$ }+.text-muted{ Hrllo bro$ }+img[src="./Crypto-Dragons/mutant-dragon1.png"]
+                       </h1> -->
+                       
+                       
+                       
+                       
+                   </div>
+                   
+                   
+                   
+                   
+                </div>
+               
+               
+               
+               
+           </div>
+           
+           
+           
+           
+           
+           
+        </div>     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- ul#pf-ul$*4>li#pf-li$.pf-li*5>a[href="#"]{ item$ } -->
+       <footer>
+           <ul id="pf-ul1">
+               
+               
+               <h1>About us</h1>
+               
+               <div id="main-link1" class="main-links">
+                   
+                   <li id="pf-li1" class="pf-li"><a href="#" class="pf-a"> Join a meetup </a></li>
+                   <li id="pf-li2" class="pf-li"><a href="#" class="pf-a"> Ask a question</a></li>
+                   <li id="pf-li3" class="pf-li"><a href="#" class="pf-a"> Help </a></li>
+                   
+                   
+                   
+               </div>
+               
+           </ul>
+           <ul id="pf-ul2">
+               
+               <h1>Pages</h1>
+               
+               <div id="main-link2" class="main-links">
+                   
+                    
+                   <li id="pf-li1" class="pf-li"><a href="#" class="pf-a"> Airdrop </a></li>
+                   <li id="pf-li2" class="pf-li"><a href="#" class="pf-a"> Nft </a></li>
+                   <li id="pf-li3" class="pf-li"><a href="#" class="pf-a"> Gamefi</a></li>
+                   <li id="pf-li4" class="pf-li"><a href="#" class="pf-a"> Stack </a></li>
+                   <li id="pf-li5" class="pf-li"><a href="#" class="pf-a"> Exchange </a></li>
+                    
+                   
+                   
+               </div>
+               
+               
+           </ul>
+           <ul id="pf-ul3">
+               <h1>What new Events</h1>
+               
+               
+               <div id="main-link3" class="main-links">
+                   
+                   <li id="pf-li1" class="pf-li"><a href="#" class="pf-a"> Ido drop </a></li>
+                   <li id="pf-li2" class="pf-li"><a href="#" class="pf-a"> Ido Events drop </a></li>
+                   <li id="pf-li3" class="pf-li"><a href="#" class="pf-a"> Sales </a></li>
+                   
+                   
+                   
+                   
+               </div>
+               
+               
+           </ul>
+           <ul id="pf-ul4">
+               
+               <h1>Join us</h1>
+               
+               <div id="main-link4" class="main-links">
+                   
+                   <li id="pf-li1" class="pf-li"><a href="#" class="pf-a"> Twitter </a></li>
+                   <li id="pf-li2" class="pf-li"><a href="#" class="pf-a"> Discord </a></li>
+                   <li id="pf-li3" class="pf-li"><a href="#" class="pf-a"> Facebook </a></li>
+                   <li id="pf-li4" class="pf-li"><a href="#" class="pf-a"> Skillshare </a></li>
+                   <li id="pf-li5" class="pf-li"><a href="#" class="pf-a"> YouTube </a></li>
+                   
+                   
+               </div>
+               
+           </ul>
+           
+           
+           
+           <div id="copyright">
+               All rights reserved to  
+           </div>
+       </footer>
+   </main>
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+   
+    <!-- <h1>Wallet-connect</h1> -->
+    <script src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.1/web3-provider.min.js"></script>
+        
+        <!-- <h1>Moralis</h1> -->
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    
+    
+    
+    <!-- <h1>Ion Icons</h1> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <h1>Js</h1> -->
+    <script src="main.js">
+        main.js
+    </script>
+    
+    
+    
+        <!--===== SORTABLE JS =====-->
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+         <!--===== MAIN JS =====-->
+         <script src="./drag-drop-card/assets/js/main.js"></script>
+         
+    
+    
+</body>
+</html>

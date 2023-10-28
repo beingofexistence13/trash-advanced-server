@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> 
+            <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> 
+            </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification">
+                                <i class="bi bi-bell"></i>
+                                <span class="notification-count"></span>
+                            </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item"> <a class="nav-link btn btn-primary" href="javascript:void(0)">Register</a> </li>
+                        <li class="nav-item ms-2"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Log in </a> </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <section class="inner-pages page-art-detail py-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-12 text-center mb-80">
+                        <div class="section-title mb-4"> The Death of Socrates</div>
+                        <p class="section-sub-title max-100 text-dark font-w-700">Jacques-Louis-David</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 art-card-mobile-space">
+                    <div class="row mb-80" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <div class="art-card-img"> <img src="images/art-1.png" alt="Artex" /> </div>
+                            <div class="art-card-details-left">
+                                <h1>Raised 672,642 Artex</h1>
+                                <p>Contributors Number： 20,223</p>
+                                <div class="d-flex justify-content-end mt-2">
+                                    <p class="mb-2">Reached: 69.47%</p>
+                                </div>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar" style="width:70%"></div>
+                                </div>
+                                <h5 class="text-center text-lg-left">Goal：113,225 Artex <br class="d-block d-lg-none" /> (Value 113,225 USD)</h5>
+                                <div class="art-d-time d-flex flex-wrap my-3">
+                                    <div class="art-d-time-items">
+                                        <span>0</span>
+                                        <p>Weeks</p>
+                                    </div>
+                                    <div class="art-d-time-items">
+                                        <span>1</span>
+                                        <p>Days</p>
+                                    </div>
+                                    <div class="art-d-time-items">
+                                        <span>3</span>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="art-d-time-items">
+                                        <span>10</span>
+                                        <p>Min</p>
+                                    </div>
+                                    <div class="art-d-time-items">
+                                        <span>47</span>
+                                        <p>Sec</p>
+                                    </div>
+                                </div>
+                                <small>Start Time 2021-12-01 10:30:00 UTC+8</small>
+                                <small>Close Time 2021-12-02 10:30:00 UTC+8</small>
+                                <small>Token sale fails after Close Time if not reaches 113,225 Artex</small>
+                                <div class="mt-4">
+                                    <a class="btn btn-primary w-100" href="javascript:void(0)">Buy Pre-sale</a>
+                                </div>
+                            </div>
+
+                            <div class="art-card-details-left-table mt-5">
+                                <div class="badge rounded-pill bg-primary px-4 py-2 mb-3">Presales Order History</div>
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Date <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Pair <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Type <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Slide <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Price <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Amount <i class="bi bi-arrow-down-up"></i></th>
+                                                <th>Filled <i class="bi bi-arrow-down-up"></i></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>07-03-2022</td>
+                                                <td>Pair</td>
+                                                <td>Type</td>
+                                                <td>Slide</td>
+                                                <td>$890</td>
+                                                <td>$1,00987</td>
+                                                <td>Filled</td>
+                                            </tr>
+                                            <tr>
+                                                <td>07-03-2022</td>
+                                                <td>Pair</td>
+                                                <td>Type</td>
+                                                <td>Slide</td>
+                                                <td>$890</td>
+                                                <td>$1,00987</td>
+                                                <td>Filled</td>
+                                            </tr>
+                                            <tr>
+                                                <td>07-03-2022</td>
+                                                <td>Pair</td>
+                                                <td>Type</td>
+                                                <td>Slide</td>
+                                                <td>$890</td>
+                                                <td>$1,00987</td>
+                                                <td>Filled</td>
+                                            </tr>
+                                            <tr>
+                                                <td>07-03-2022</td>
+                                                <td>Pair</td>
+                                                <td>Type</td>
+                                                <td>Slide</td>
+                                                <td>$890</td>
+                                                <td>$1,00987</td>
+                                                <td>Filled</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <div class="art-detail-card-right-info">
+                                <h1>Artwork detail</h1>
+                                <hr/>
+                                <p>This touching painting will mean almost nothing to the viewer without context and knowing the story. For example, the painting could be a depiction of a group of classical-styled men having an interesting conversation.
+                                    And at one point a servant gives the most important man in the center a cocktail ( wine back in the day). However, what that man is giving him is the poison hemlock!</p>
+                                <p>Socrates (470-390 BC) was one of the most disruptive philosophers in classical times. His most famous student was Plato who recorded the death scene of Socrates in his work Phaedo. Convicted of impiety, he was sentenced
+                                    to death. He could have recanted but seemed to die willingly by drinking the poison. As Plato tells it, Socrates surrounded himself by his closest pupils and discussed the immortality of the soul as he drunk the deadly
+                                    elixir.
+                                </p>
+                                <p>David lost his father to a duel ( still a thing back in the day). His uncles cared for him and, it was obvious that he possessed great talent in the arts. In his early artistic years, he had many trials and tribulations
+                                    and even tried to commit suicide by starvation ( the stoic way). Eventually, he won a scholarship to study in Rome and that’s when he began to blossom.</p>
+                                <p>David became one of the most important Neoclassicist painters of the period. For the Death of Socrates, he consulted antiquarian scholars in order to give a genuine representation of the furniture and even clothing of that
+                                    time. During the revolution and after he became famous as the official painter of Napoleon and his masterpiece Coronation of Napoleon.</p>
+                                <h1>Tokenomics</h1>
+                                <div class="table-responsive">
+                                    <table class="table m-0">
+                                        <tbody>
+                                            <tr>
+                                                <td>Name:</td>
+                                                <td>The Starry Night</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Symbol:</td>
+                                                <td>STAR</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total Supply:</td>
+                                                <td>260,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Presale Allocation:</td>
+                                                <td>30,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Listing Price:</td>
+                                                <td>44.55</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Listing Date:</td>
+                                                <td>01/23/2022 11:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Contract Address:</td>
+                                                <td>0x469e6bc0adf21b.xxxxyyy</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains <br/> Zackerychester <br/> Bahamas <br/> 732-528-4945
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email">
+                            <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    Copyright © 2022 Artex All rights reserved
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none">
+        <a href="javascript:void(0)"><i class="bi bi-house"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a>
+        <a href="javascript:void(0)" class="active"><i class="bi bi-image"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>
+    </section>
+    <!-- Mobile Footer End -->
+
+
+
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+
+
+</body>
+
+</html>

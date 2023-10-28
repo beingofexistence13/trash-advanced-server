@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> </head>
+
+<body>
+
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)" class="position-relative desktop-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                        </li>
+                        <li class="nav-item ms-3"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Wallet </a> </li>
+                        <li class="nav-item ms-3  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-3 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                        <li class="nav-item ms-4 d-none d-lg-inline-block">
+                            <a class="nav-link btn-secondary-border border-0" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Breadcrum Start -->
+    <section class="page-breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item"><a href="#">Company</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Help Center</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrum End -->
+
+
+    <!-- Page Content Start -->
+    <section class="inner-pages page-center pt-5">
+        <section class="hero-help-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                        <p>Help Center</p>
+                        <h1>How can <br/> we help</h1>
+                        <div class="search-w-btn">
+                            <input type="text" placeholder="Search anything"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center mt-5 mt-md-0" data-aos="fade-left" data-aos-duration="2000"> <img src="images/help-center.png" alt="" /> </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq-help-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title mb-5 text-center">Frequently asked questions</div>
+                        <select class="form-control form-select d-block d-sm-none mobile-filter-btn-select mb-5">
+                            <option>General</option>
+                            <option>Support</option>
+                            <option>Hosting</option>
+                            <option>Product</option>
+                        </select>
+                        <div class="tab-d-1-btn d-none d-sm-flex align-items-center justify-content-center mb-5">
+                            <div class="tab-d-1-btn-items px-3 active flex-auto mt-0 mb-0">General</div>
+                            <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mt-0 mb-0">Support</div>
+                            <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mt-0 mb-0">Hosting</div>
+                            <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mt-0 mb-0">Product</div>
+                        </div>
+
+                        <div class="accordion accordion-d-1 faq-accordion" id="accordionExample">
+
+
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ-1" aria-expanded="true" aria-controls="FAQ-1">
+                                      <span>01</span>  How does it work?
+                </button>
+                                </h2>
+                                <div id="FAQ-1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"> How does it work Comming soon... </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ-2" aria-expanded="false" aria-controls="FAQ-2">
+                                        <span>02</span> How can i set up a new website?
+                </button>
+                                </h2>
+                                <div id="FAQ-2" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            The Stacks series of products: Stacks: Landing Page Kit, Stacks: Portfolio Kit, Stacks: eCommerce Kit. "Stacks is a production-ready library of stackable content blocks built in React Native. Mix-and-match dozens of responsive elements to quickly configure
+                                            your favorite landing page layouts or hit the ground running with 10 pre-built templates, all in light or dark mode."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ-3" aria-expanded="false" aria-controls="FAQ-3">
+                                        <span>03</span>  How does it work?
+                </button>
+                                </h2>
+                                <div id="FAQ-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"> How does it work Comming soon... </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ-4" aria-expanded="false" aria-controls="FAQ-3">
+                                        <span>04</span> How does it work?
+                  </button>
+                                </h2>
+                                <div id="FAQ-4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"> How does it work Comming soon... </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQ-5" aria-expanded="false" aria-controls="FAQ-3">
+                                        <span>05</span>  How does it work
+                  </button>
+                                </h2>
+                                <div id="FAQ-5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"> How does it work Comming soon... </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="select-topic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="mx-580 m-auto">
+                            <label class="text-light-grey font-w-700 text-uppercase font-12 mb-4">Select a topic</label>
+                            <div class="select-topic-tab d-flex mb-5">
+                                <a href="javascript:void(0)" class="select-topic-tab-items active"> <img src="images/tab-wallet.png" alt="Artex" class="d-none d-sm-inline"> Wallet</a>
+                                <a href="javascript:void(0)" class="select-topic-tab-items"> <img src="images/tab-exchange.png" alt="Artex" class="d-none d-sm-inline"> Exchange</a>
+                            </div>
+                            <form action="#" class="custom-form" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="mb-4">
+                                    <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">What is your issue about?</label>
+                                    <select class="form-control form-select">
+                                    <option>Have a question about Bitcloud fees</option>
+                                </select>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">What is your issue about?</label>
+                                    <select class="form-control form-select">
+                                    <option>Transactions and spending</option>
+                                </select>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">Email address</label>
+                                    <select class="form-control form-select">
+                                    <option>Email</option>
+                                </select>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">Subject</label>
+                                    <input type="text" class="form-control" placeholder="Enter Subject" />
+                                </div>
+                                <div class="mb-4">
+                                    <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">message</label>
+                                    <textarea class="form-control" rows="6" placeholder="Say something"></textarea>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a class="btn btn-primary" href="javascript:void(0)">Send message</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+    <!-- Page Content End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains
+                            <br/> Zackerychester
+                            <br/> Bahamas
+                            <br/> 732-528-4945 </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> Copyright © 2022 Artex All rights reserved </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none"> <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a> <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a> <a href="javascript:void(0)"><i class="bi bi-image"></i></a> <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>        </section>
+    <!-- Mobile Footer End -->
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+/* @import url(./variables.css); */
+@import url(../variable/variable.css);
+
+
+/* @keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+} */
+
+
+.pro-sidebar-left{
+    
+
+    background: var(--sidebar-bg);
+    border-right: var(--border-color);
+    border-left: var(--border-color);
+    overflow: hidden;
+    /* animation: menuPopup 0.8s ease forwards; */
+    transition: all 0.5s linear;
+    
+    height: 100vh  ;
+    width: 300px  ;
+    
+    position: fixed;
+    top: 0px;
+    left: 0;
+    
+    
+    padding-top: 90px;    
+    z-index: 10;
+}
+.pro-sidebar-left.active{
+    
+    width: 300px  ;
+    min-height: 100vh  ;
+}
+
+#psl-ul{
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex  ;
+    flex-direction: column  ;
+    align-items: center;
+    height: calc(100vh - 150px);
+    
+    width: 100%  ;
+    
+}
+
+.psl-li #searchbar-container{
+    background: red  ;
+}
+/* .mt5{
+    
+    background: red !important;
+    margin-top: 5rem !important;
+} */
+.psl-li{
+    
+    /* background: red !important; */
+    display: flex;
+    align-items: center  ;
+    column-gap: 30px;
+    
+    min-height: 50px;
+    width: 250px;
+    
+    padding-left: 20px  ;
+}
+.psl-li:hover{
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 7px;
+    border: var(--border-color);
+    transition: all 0.5s linear;
+}
+.psl-li:hover,.st:hover{
+
+    
+    background: var(--primary1o1-bg);
+    
+    
+}
+/* .psl-li:last-child{
+    
+    background: red;
+    border-bottom: var(--border-color);
+} */
+
+
+.strat-line{
+    
+    
+    border-top: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* row-gap: 10px; */
+    
+    min-height: 1000rem  ;
+    width: 100%;
+    
+    /* padding-top: 1.5rem; */
+    /* margin-top: 0.5rem; */
+}
+.c{
+    
+    margin-inline: auto  ;
+}
+.st{
+    
+    display: grid;
+    place-items: center;
+    border-bottom: var(--border-color);
+    transition: all 0.5s linear  ;
+    
+    min-height: 60px;
+    width: 100%;
+    
+    /* padding: 0 30px  ; */
+    
+}
+.st-main{
+    
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    place-items: center;
+    /* border-bottom: var(--border-color); */
+    
+    height: 60px;
+    width: 100%;
+    
+    padding: 0 30px  ;
+    
+}
+
+.st.active1o1{
+    
+    grid-template-rows: 60px 150px;
+    transition: all 0.5s linear;
+    
+    
+}
+
+.st.active1o1 ion-icon[name="chevron-forward-outline"]{
+    
+    transform: rotate(90deg)
+}
+.st.active1o1 .st-toggle{
+    
+    display: flex  ;
+    
+}
+.st a {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.st-toggle {
+    
+    
+    /* overflow: hidden; */
+    display: none;
+    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s linear  ;
+    
+    min-width: 100%  ;
+    width: 150px  ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pro-sidebar-left.close #psl-ul{
+    
+    /* padding-top: 2rem  */ 
+    /* padding: 1rem 0  ; */
+}
+
+
+.pro-sidebar-left.close #psl-ul li{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: var(--primary-bg);
+    transition: all 0.5s linear  ;
+    
+    min-width: 50px  ;
+    width: 50px  ;
+    max-width: 50px  ;
+    min-height: 50px  ;
+    
+    
+    /* margin: 0  ; */
+    /* padding: 0  ; */
+}
+@keyframes friday-glow{
+    0%,100%{
+        filter:hue-rotate(0deg);
+    }
+    /* 25%{
+        
+    } */
+    50%{
+        filter:hue-rotate(360deg);
+    }
+    /* 100%{
+        
+    } */
+}
+
+.pro-sidebar-left.close #psl-ul li:hover{
+    
+    border-radius: 10px;
+    animation: friday-glow 15s linear infinite;
+    color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1))  ;
+    
+    /* box-shadow: 100px 100px 170px 0px rgba(255, 17, 17, 1); */
+    background: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1));
+    /* filter: blur(200px); */
+    
+    
+    
+    
+}
+.pro-sidebar-left.close #psl-ul li:hover ion-icon{
+    
+    animation: friday-glow 20s linear infinite;
+    /* color: indigo  ; */
+    color: #FFFFFF  ;
+    /* color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1))  ; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #Media quires
+\*-----------------------------------*/
+@media(min-width:900px){
+    
+    
+    
+    /* #All khorafati{} */
+    .pro-sidebar-left.close{
+        
+        display: block  ;
+        overflow: hidden;
+        transition: none  ;
+       
+        
+        width: 85px  ;
+        min-height: 200vh  ;
+        
+        /* padding-left: 10px  ; */
+        /* padding-top: 2rem  */ ;
+        
+        /* z-index: none  ; */
+    }
+    .pro-sidebar-left.close .strat-line{
+        
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+        
+    }
+
+    
+    .pro-sidebar-left.close li,.pro-sidebar-left.close .st-main{
+        
+        
+        overflow: hidden;
+        display: flex  ;
+        align-items: center;
+        justify-content: center;
+        
+        height: 50px  ;
+        max-width: 70px  ;
+        
+        
+        margin: 0  ;
+        padding: 0  ;
+    }
+    .pro-sidebar-left.close a,.pro-sidebar-left.close .st a,.pro-sidebar-left.close ion-icon[name="chevron-forward-outline"]{
+        display: none  ;
+    }
+
+    /* .pro-sidebar-left ion-icon{
+        
+        min-width: 70px;
+        
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .pro-sidebar-left.active{
+        
+        width: 300px  ;
+        min-height: 200vh  ;
+        
+        transition: all 0.5s linear  ;
+        
+    }
+    .pro-sidebar-left.active a,
+    .pro-sidebar-left.active ion-icon[name="chevron-forward-outline"] {
+        display: block  ;
+    }    
+    .pro-sidebar-left.active li,.pro-sidebar-left.active .st{
+        
+        max-width: 300px  ;
+    }
+
+    /* .pro-sidebar-left.active .psl-li a{
+        display: block;
+    } */
+
+    
+    
+}
+

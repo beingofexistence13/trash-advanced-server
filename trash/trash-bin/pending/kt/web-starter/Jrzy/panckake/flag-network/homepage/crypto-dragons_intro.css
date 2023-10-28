@@ -1,0 +1,159 @@
+*{
+    /* background: red !important; */
+}
+
+
+
+#sec1{
+    
+    /* background: red; */
+    
+    width: 100%;
+    min-height: 100vh;
+}
+/* #sec1 *{
+    width: 100%;
+} */
+
+#sec1_top_img_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#sec1_top h4,h3{
+    
+    /* color: red !important; */
+    text-align: center;
+    width: 100% !important;
+    
+    margin-inline: auto !important;
+    
+}
+#sec1_top_intro{
+    
+    background: red;
+    min-width: 100% !important;
+}
+/* .op{
+    
+    width: 100% !important;
+} */
+
+
+
+
+
+#sec1_center{
+    
+    
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    
+    height: 200px;
+    width: 100% !important;
+    
+}    
+#sec1_btn_container{
+    
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    
+    width: 200px;
+    max-height: 20px;
+    
+    margin-inline: auto;
+}
+
+.btn{
+    
+    height: 35px !important;
+    
+}
+/* .sec1_top_intro{
+    
+    width: 100% !important;
+} */
+#sec1_btn_container .btn1{
+    
+    /* background: #EDEEFF !important; */
+    /* color: #0015FF !important; */
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-style: bold !important;
+    font-weight: 900 !important;
+    /* font-size: 20px; */
+}
+
+#sec1_btn_container .btn3{
+    
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background: #EDEEFF !important;
+    color: #7F8AFF !important;
+    /* font-size: 20px; */
+    /* box-shadow:  18px 18px 36px #0000d4,
+             -18px -18px 36px #0000ff; */    
+             
+             
+             
+             
+}
+
+
+#secured h3,#secured h4{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100% !important;
+}
+#secured h4{
+    
+    font-size: 10px !important;
+    
+    
+    margin-inline: auto !important;
+    padding: 0 !important;
+} 
+
+
+#secured h3 {
+    margin-inline: auto !important;
+    
+    
+}
+
+
+
+
+#sec1_bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    
+    width: 100%;
+    height: 300px;
+}
+
+
+#sec1_bottom li{
+    
+    background: #EDEFFF;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+
+    height: 50px;    
+    width: 100%;
+    
+}

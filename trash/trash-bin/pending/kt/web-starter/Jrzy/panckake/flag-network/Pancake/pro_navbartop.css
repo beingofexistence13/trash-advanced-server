@@ -1,0 +1,132 @@
+@import url(./variables.css);
+
+#pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
+    display: none;
+}
+
+#pro_navbartop_container{
+    
+    backdrop-filter:
+    blur( 10.5px );
+    -webkit-backdrop-filter:
+    blur( 10.5px );
+    display: flex;
+    align-items: center;
+    border-bottom: var(--border-color);
+    background: var(--glass-bg);
+    
+    height: 72px;
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 3%;
+    
+    z-index: 51;
+}
+#pro_navbartop_container ul{
+    
+    display: grid;
+    grid-template-columns: 40px 1fr 30px 100px 85px;
+    column-gap: 15px;
+    
+    height: 70px;
+    min-width: 100%;
+    
+}
+.pnt-li{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* height: 50px; */
+    width: 100%;
+}
+.pnt-it{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#pnt-it1,#pnt-it4,#pnt-it5,#login_header .icon{
+    
+    background: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 30px;
+    width: 30px;
+}
+#pnt-it1{
+    
+    height: 40px;
+    width: 40px;
+
+}
+#pnt-in{
+    
+    font-size: 20px;
+    color: #000000;
+}
+
+
+#pnt-it5.active ion-icon[name="sunny-outline"]{
+    display: none;
+}
+#pnt-it5.active ion-icon[name="moon-outline"]{
+    display: block;
+}
+
+.btn{
+    
+    border: var(--border-color);
+}
+
+
+
+
+
+.chain-selecter{
+    width: 100%;
+}
+
+
+
+
+.pd-ul{
+    display: none !important;
+}
+.chain-selecter{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width:900px){
+    
+    
+    .pd-ul{
+        display: flex !important;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 5px;
+        
+    }
+    #pro_navbartop_container ul{
+        
+        column-gap: 20px;
+    }
+    
+    /* #pro_navbartop_container{
+        
+        padding: 0 100px;
+    } */    
+
+}

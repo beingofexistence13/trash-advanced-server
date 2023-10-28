@@ -1,0 +1,52 @@
+
+/* @import url(./variables.css); */
+@import url(../variable/variable.css);
+
+
+/* *{
+    
+    background: red;
+} */   
+
+
+
+
+.pro-sidebar-right{
+    
+    border: var(--border-color);
+    
+    
+    min-height: 100vh;
+    width: 75px;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    padding-top: 80px;
+    z-index: 10;
+}
+.psr-ul{
+    
+    background: #F7F7FF;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+    
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.psr-li{
+    
+    /* background: #F3F4FF; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 50px;
+    width: 100%;
+    
+}

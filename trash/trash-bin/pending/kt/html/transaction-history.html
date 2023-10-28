@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> </head>
+
+<body>
+
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)" class="position-relative desktop-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                        </li>
+                        <li class="nav-item ms-3"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Wallet </a> </li>
+                        <li class="nav-item ms-3  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-3 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                        <li class="nav-item ms-4 d-none d-lg-inline-block">
+                            <a class="nav-link btn-secondary-border border-0" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Breadcrum Start -->
+    <section class="page-breadcrumb page-breadcrumb-with-title">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="mb-2 mb-md-0">Transaction History</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb m-0 justify-content-start justify-content-md-end">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Transaction History</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrum End -->
+
+
+    <!-- Page Content Start -->
+    <section class="inner-pages page-transation-history py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                            <div class="market-tab-btn">
+                                <a href="javascript:void(0)" class="active">All type</a>
+                                <a href="javascript:void(0)">Withdrawals</a>
+                                <a href="javascript:void(0)">Deposit</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="market-tab-search mx-auto ms-lg-auto me-lg-0">
+                                <input type="search" placeholder="Search">
+                                <button type="button" class="market-tab-search-btn"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="bg-hr my-4">
+                    <div class="d-flex justify-content-between mb-3 mb-lg-0">
+                        <h2 class="font-w-700 m-0">Activity</h2>
+                        <a class="btn btn-primary btn-info" href="javascript:void(0)"><svg class="me-2" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4902 9.394C10.7399 9.66455 10.7231 10.0863 10.4525 10.3361L8.11921 12.4899C7.86383 12.7256 7.47021 12.7256 7.21483 12.4899L4.88147 10.3361C4.61092 10.0863 4.59405 9.66456 4.84378 9.39401C5.09352 9.12346 5.51529 9.10659 5.78584 9.35632L7.00035 10.4774L7.00035 4.00004C7.00035 3.63185 7.29882 3.33337 7.66701 3.33337C8.0352 3.33337 8.33368 3.63185 8.33368 4.00004L8.33368 10.4774L9.54813 9.35633C9.81868 9.10659 10.2405 9.12346 10.4902 9.394Z" fill="#FCFCFD"/>
+                    </svg>
+                     Export</a>
+                    </div>
+
+                    <div class="table-responsive d-none d-lg-block">
+                        <table class="table m-0 table-transation-history table-market-page table-border" border="0">
+                            <thead>
+                                <tr>
+                                    <th>Type <img src="images/sort.png" alt="" class="ms-1"> </th>
+                                    <th>Coin <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th>Amount <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th>Address <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th>Transaction ID <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th width="190" class="text-center">Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> <a href="javascript:void(0)" class="btn btn-info font-12 font-w-700 text-uppercase">Withdraw</a> </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                    <td>1,641.20 BTC</td>
+                                    <td>3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">2021-06-05 04:12:30</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="javascript:void(0)" class="btn bg-primary font-12 font-w-700 text-uppercase text-white">Deposited</a> </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                    <td>1,641.20 BTC</td>
+                                    <td>3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">2021-06-05 04:12:30</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="javascript:void(0)" class="btn btn-info font-12 font-w-700 text-uppercase">Withdraw</a> </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                    <td>1,641.20 BTC</td>
+                                    <td>3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">2021-06-05 04:12:30</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="javascript:void(0)" class="btn bg-primary font-12 font-w-700 text-uppercase text-white">Deposited</a> </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                    <td>1,641.20 BTC</td>
+                                    <td>3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">2021-06-05 04:12:30</td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="javascript:void(0)" class="btn bg-primary font-12 font-w-700 text-uppercase text-white">Deposited</a> </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                    <td>1,641.20 BTC</td>
+                                    <td>3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">3DkQyAdif6kQLPMBu</td>
+                                    <td class="text-grey">2021-06-05 04:12:30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="mobile-market-table d-block d-lg-none">
+                        <table class="table table-market">
+                            <tbody>
+                                <tr>
+                                    <td><a href="javascript:void(0)" class="btn btn-info font-12 font-w-700 text-uppercase">Withdraw</a></td>
+                                    <td align="right">
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Amount </td>
+                                    <td align="right">1,641.20 BTC </td>
+                                </tr>
+                                <tr>
+                                    <td>Address </td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</tdalign=>
+                                </tr>
+                                <tr>
+                                    <td>Transaction ID</td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</td>
+                                </tr>
+                                <tr>
+                                    <td>Date</td>
+                                    <td align="right">2021-06-05 04:12:30
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><a href="javascript:void(0)" class="btn bg-primary font-12 font-w-700 text-uppercase text-white">Deposited</a></td>
+                                    <td align="right">
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Amount </td>
+                                    <td align="right">1,641.20 BTC </td>
+                                </tr>
+                                <tr>
+                                    <td>Address </td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</tdalign=>
+                                </tr>
+                                <tr>
+                                    <td>Transaction ID</td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</td>
+                                </tr>
+                                <tr>
+                                    <td>Date</td>
+                                    <td align="right">2021-06-05 04:12:30
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><a href="javascript:void(0)" class="btn btn-info font-12 font-w-700 text-uppercase">Withdraw</a></td>
+                                    <td align="right">
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Amount </td>
+                                    <td align="right">1,641.20 BTC </td>
+                                </tr>
+                                <tr>
+                                    <td>Address </td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</tdalign=>
+                                </tr>
+                                <tr>
+                                    <td>Transaction ID</td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</td>
+                                </tr>
+                                <tr>
+                                    <td>Date</td>
+                                    <td align="right">2021-06-05 04:12:30
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><a href="javascript:void(0)" class="btn bg-primary font-12 font-w-700 text-uppercase text-white">Deposited</a></td>
+                                    <td align="right">
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2">
+                                                <img src="images/artex-sm.png" alt="">
+                                            </div>
+                                            Artex
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Amount </td>
+                                    <td align="right">1,641.20 BTC </td>
+                                </tr>
+                                <tr>
+                                    <td>Address </td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</tdalign=>
+                                </tr>
+                                <tr>
+                                    <td>Transaction ID</td>
+                                    <td align="right">3DkQyAdif6kQLPMBu</td>
+                                </tr>
+                                <tr>
+                                    <td>Date</td>
+                                    <td align="right">2021-06-05 04:12:30
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                    <div class="text-center d-block d-lg-none mt-5">
+                        <a class="btn-secondary-border" href="javascript:void(0)"> <svg class="me-2" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.99967 1.33301C7.63148 1.33301 7.33301 1.63148 7.33301 1.99967V3.99967C7.33301 4.36786 7.63148 4.66634 7.99967 4.66634C8.36786 4.66634 8.66634 4.36786 8.66634 3.99967V1.99967C8.66634 1.63148 8.36786 1.33301 7.99967 1.33301Z" fill="#23262F"/>
+                        <path d="M7.99967 11.333C7.63148 11.333 7.33301 11.6315 7.33301 11.9997V13.9997C7.33301 14.3679 7.63148 14.6663 7.99967 14.6663C8.36786 14.6663 8.66634 14.3679 8.66634 13.9997V11.9997C8.66634 11.6315 8.36786 11.333 7.99967 11.333Z" fill="#23262F"/>
+                        <path d="M13.9997 7.33301C14.3679 7.33301 14.6663 7.63148 14.6663 7.99967C14.6663 8.36786 14.3679 8.66634 13.9997 8.66634H11.9997C11.6315 8.66634 11.333 8.36786 11.333 7.99967C11.333 7.63148 11.6315 7.33301 11.9997 7.33301H13.9997Z" fill="#23262F"/>
+                        <path d="M4.66634 7.99967C4.66634 7.63148 4.36786 7.33301 3.99967 7.33301H1.99967C1.63148 7.33301 1.33301 7.63148 1.33301 7.99967C1.33301 8.36786 1.63148 8.66634 1.99967 8.66634H3.99967C4.36786 8.66634 4.66634 8.36786 4.66634 7.99967Z" fill="#23262F"/>
+                        <path d="M11.7709 3.28569C12.0313 3.02535 12.4534 3.02535 12.7138 3.28569C12.9741 3.54604 12.9741 3.96815 12.7138 4.2285L11.2995 5.64272C11.0392 5.90307 10.6171 5.90307 10.3567 5.64272C10.0964 5.38237 10.0964 4.96026 10.3567 4.69991L11.7709 3.28569Z" fill="#23262F"/>
+                        <path d="M5.64263 10.3567C5.38228 10.0963 4.96017 10.0963 4.69982 10.3567L3.28561 11.7709C3.02526 12.0312 3.02526 12.4533 3.28561 12.7137C3.54596 12.974 3.96807 12.974 4.22841 12.7137L5.64263 11.2995C5.90298 11.0391 5.90298 10.617 5.64263 10.3567Z" fill="#23262F"/>
+                        <path d="M12.7137 11.7709C12.9741 12.0313 12.9741 12.4534 12.7137 12.7138C12.4534 12.9741 12.0313 12.9741 11.7709 12.7138L10.3567 11.2995C10.0964 11.0392 10.0964 10.6171 10.3567 10.3567C10.6171 10.0964 11.0392 10.0964 11.2995 10.3567L12.7137 11.7709Z" fill="#23262F"/>
+                        <path d="M5.64269 5.64263C5.90304 5.38228 5.90304 4.96017 5.64269 4.69982L4.22848 3.28561C3.96813 3.02526 3.54602 3.02526 3.28567 3.28561C3.02532 3.54596 3.02532 3.96807 3.28567 4.22841L4.69988 5.64263C4.96023 5.90298 5.38234 5.90298 5.64269 5.64263Z" fill="#23262F"/>
+                        </svg> Load more </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains
+                            <br/> Zackerychester
+                            <br/> Bahamas
+                            <br/> 732-528-4945 </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> Copyright © 2022 Artex All rights reserved </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none"> <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a> <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a> <a href="javascript:void(0)"><i class="bi bi-image"></i></a> <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>        </section>
+    <!-- Mobile Footer End -->
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+</body>
+
+</html>

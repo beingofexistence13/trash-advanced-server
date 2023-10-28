@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> </head>
+
+<body>
+
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)" class="position-relative desktop-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                        </li>
+                        <li class="nav-item ms-3"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Wallet </a> </li>
+                        <li class="nav-item ms-3  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-3 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                        <li class="nav-item ms-4 d-none d-lg-inline-block">
+                            <a class="nav-link btn-secondary-border border-0" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Breadcrum Start -->
+    <section class="page-breadcrumb page-breadcrumb-with-title">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="mb-2 mb-md-0">2FA</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb m-0 justify-content-start justify-content-md-end">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">2FA</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrum End -->
+
+
+    <!-- Page Content Start -->
+    <section class="inner-pages page-account-2fa py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-4 col-xxl-3">
+                    <a class="mobile-account-menu-btn d-flex d-md-none align-items-center collapsed" data-bs-toggle="collapse" href="#AccountMenuList" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 7C2 6.44772 2.44772 6 3 6H5C5.55228 6 6 5.55228 6 5C6 4.44772 5.55228 4 5 4H3C1.34315 4 0 5.34315 0 7V9C0 9.55228 0.447715 10 1 10C1.55228 10 2 9.55228 2 9V7Z" fill="#777E91"/>
+                            <path d="M22 17C22 17.5523 21.5523 18 21 18L19 18C18.4477 18 18 18.4477 18 19C18 19.5523 18.4477 20 19 20L21 20C22.6569 20 24 18.6569 24 17V15C24 14.4477 23.5523 14 23 14C22.4477 14 22 14.4477 22 15V17Z" fill="#777E91"/>
+                            <path d="M2 17C2 17.5523 2.44772 18 3 18H5C5.55228 18 6 18.4477 6 19C6 19.5523 5.55228 20 5 20H3C1.34315 20 0 18.6569 0 17V15C0 14.4477 0.447715 14 1 14C1.55228 14 2 14.4477 2 15L2 17Z" fill="#777E91"/>
+                            <path d="M21 6C21.5523 6 22 6.44772 22 7V9C22 9.55228 22.4477 10 23 10C23.5523 10 24 9.55228 24 9V7C24 5.34315 22.6569 4 21 4H19C18.4477 4 18 4.44772 18 5C18 5.55228 18.4477 6 19 6L21 6Z" fill="#777E91"/>
+                            <path d="M5 8C4.44772 8 4 8.44772 4 9V15C4 15.5523 4.44772 16 5 16C5.55228 16 6 15.5523 6 15V9C6 8.44772 5.55228 8 5 8Z" fill="#777E91"/>
+                            <path d="M18 8C17.4477 8 17 8.44772 17 9V15C17 15.5523 17.4477 16 18 16H19C19.5523 16 20 15.5523 20 15V9C20 8.44772 19.5523 8 19 8H18Z" fill="#777E91"/>
+                            <path d="M8 9C8 8.44772 8.44772 8 9 8H10C10.5523 8 11 8.44772 11 9V15C11 15.5523 10.5523 16 10 16H9C8.44771 16 8 15.5523 8 15V9Z" fill="#777E91"/>
+                            <path d="M14 8C13.4477 8 13 8.44772 13 9V15C13 15.5523 13.4477 16 14 16C14.5523 16 15 15.5523 15 15V9C15 8.44772 14.5523 8 14 8Z" fill="#777E91"/>
+                            </svg> 2FA
+
+                        <svg class="ms-auto" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 0.792893C8.81658 0.402369 8.18342 0.402369 7.79289 0.792893L5 3.58579L2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792894 0.792893C0.402369 1.18342 0.402369 1.81658 0.792894 2.20711L4.29289 5.70711C4.68342 6.09763 5.31658 6.09763 5.70711 5.70711L9.20711 2.20711C9.59763 1.81658 9.59763 1.18342 9.20711 0.792893Z" fill="#777E91"/>
+                </svg>
+                    </a>
+
+                    <div class="page-account-menu-list collapse mb-4 md-md-0" id="AccountMenuList">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13C8.13401 13 5 16.134 5 20V22C5 22.5523 4.55228 23 4 23C3.44772 23 3 22.5523 3 22V20C3 15.0294 7.02944 11 12 11C16.9706 11 21 15.0294 21 20V22C21 22.5523 20.5523 23 20 23C19.4477 23 19 22.5523 19 22V20C19 16.134 15.866 13 12 13Z" fill="#777E91"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11ZM12 13C15.3137 13 18 10.3137 18 7C18 3.68629 15.3137 1 12 1C8.68629 1 6 3.68629 6 7C6 10.3137 8.68629 13 12 13Z" fill="#777E91"/>
+                        </svg> Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C15.3137 22 18 19.3137 18 16C18 12.6863 15.3137 10 12 10C8.68629 10 6 12.6863 6 16C6 19.3137 8.68629 22 12 22ZM12 24C16.4183 24 20 20.4183 20 16C20 11.5817 16.4183 8 12 8C7.58172 8 4 11.5817 4 16C4 20.4183 7.58172 24 12 24Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C13.1046 18 14 17.1046 14 16C14 14.8954 13.1046 14 12 14C10.8954 14 10 14.8954 10 16C10 17.1046 10.8954 18 12 18ZM12 20C14.2091 20 16 18.2091 16 16C16 13.7909 14.2091 12 12 12C9.79086 12 8 13.7909 8 16C8 18.2091 9.79086 20 12 20Z" fill="#777E91"/>
+                                    <path d="M7.23629 2C6.49291 2 6.00942 2.78231 6.34187 3.44721L8.92456 8.6126C8.30155 8.87227 7.71843 9.20847 7.18691 9.60943L4.55301 4.34164C3.55566 2.34694 5.00615 0 7.23629 0H8.76416C9.90047 0 10.9393 0.642007 11.4474 1.65836L12.0002 2.76391L12.553 1.65836C13.0612 0.642007 14.1 0 15.2363 0H16.7641C18.9943 0 20.4448 2.34694 19.4474 4.34164L16.8135 9.60944C16.282 9.20847 15.6989 8.87228 15.0759 8.6126L17.6586 3.44721C17.991 2.78231 17.5075 2 16.7641 2H15.2363C14.8575 2 14.5112 2.214 14.3418 2.55279L13.1182 4.99998L14.8865 8.53651C14.1052 8.23414 13.2645 8.05093 12.3868 8.00918L9.65858 2.55279C9.48919 2.214 9.14293 2 8.76416 2H7.23629Z" fill="#777E91"/>
+                                    </svg> Tier system</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5ZM5 3C2.79086 3 1 4.79086 1 7V17C1 19.2091 2.79086 21 5 21H19C21.2091 21 23 19.2091 23 17V7C23 4.79086 21.2091 3 19 3H5Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 12C13 9.23858 15.2386 7 18 7H22C22.5523 7 23 7.44772 23 8C23 8.55228 22.5523 9 22 9H18C16.3431 9 15 10.3431 15 12C15 13.6569 16.3431 15 18 15H22C22.5523 15 23 15.4477 23 16C23 16.5523 22.5523 17 22 17H18C15.2386 17 13 14.7614 13 12Z" fill="#777E91"/>
+                                    <path d="M19 12C19 12.5523 18.5523 13 18 13C17.4477 13 17 12.5523 17 12C17 11.4477 17.4477 11 18 11C18.5523 11 19 11.4477 19 12Z" fill="#777E91"/>
+                                    </svg> Wallet
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0)" class="active">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C10.2274 11 8.64844 11.0646 7.35838 11.1466C6.13471 11.2243 5.19379 12.158 5.10597 13.373C5.0435 14.2373 5 15.1481 5 16C5 16.8519 5.0435 17.7627 5.10597 18.627C5.19379 19.842 6.13471 20.7757 7.35838 20.8534C8.64844 20.9354 10.2274 21 12 21C13.7726 21 15.3516 20.9354 16.6416 20.8534C17.8653 20.7757 18.8062 19.842 18.894 18.627C18.9565 17.7627 19 16.8519 19 16C19 15.1481 18.9565 14.2373 18.894 13.373C18.8062 12.158 17.8653 11.2243 16.6416 11.1466C15.3516 11.0646 13.7726 11 12 11ZM7.2315 9.15059C5.01376 9.29156 3.27137 11.0124 3.11117 13.2288C3.04652 14.1234 3 15.085 3 16C3 16.915 3.04652 17.8766 3.11118 18.7712C3.27137 20.9876 5.01376 22.7084 7.23151 22.8494C8.55778 22.9337 10.1795 23 12 23C13.8205 23 15.4422 22.9337 16.7685 22.8494C18.9862 22.7084 20.7286 20.9876 20.8888 18.7712C20.9535 17.8766 21 16.915 21 16C21 15.085 20.9535 14.1234 20.8888 13.2288C20.7286 11.0124 18.9862 9.29156 16.7685 9.15059C15.4422 9.06629 13.8205 9 12 9C10.1795 9 8.55778 9.06629 7.2315 9.15059Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 16.7324C13.5978 16.3866 14 15.7403 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 15.7403 10.4022 16.3866 11 16.7324V18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18V16.7324Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V10C17 10.5523 16.5523 11 16 11C15.4477 11 15 10.5523 15 10V6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6V10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10V6Z" fill="#777E91"/>
+                                    </svg> Security Settings
+                                    <svg class="me-0 ms-4" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 0.792893C8.81658 0.402369 8.18342 0.402369 7.79289 0.792893L5 3.58579L2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792894 0.792893C0.402369 1.18342 0.402369 1.81658 0.792894 2.20711L4.29289 5.70711C4.68342 6.09763 5.31658 6.09763 5.70711 5.70711L9.20711 2.20711C9.59763 1.81658 9.59763 1.18342 9.20711 0.792893Z" fill="#777E91"/>
+                                        </svg>
+
+                                </a>
+                                <ul class="page-account-menu-list-submenu">
+                                    <li>
+                                        <a href="javascript:void(0)" class="active">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 7C2 6.44772 2.44772 6 3 6H5C5.55228 6 6 5.55228 6 5C6 4.44772 5.55228 4 5 4H3C1.34315 4 0 5.34315 0 7V9C0 9.55228 0.447715 10 1 10C1.55228 10 2 9.55228 2 9V7Z" fill="#777E91"/>
+                                                <path d="M22 17C22 17.5523 21.5523 18 21 18L19 18C18.4477 18 18 18.4477 18 19C18 19.5523 18.4477 20 19 20L21 20C22.6569 20 24 18.6569 24 17V15C24 14.4477 23.5523 14 23 14C22.4477 14 22 14.4477 22 15V17Z" fill="#777E91"/>
+                                                <path d="M2 17C2 17.5523 2.44772 18 3 18H5C5.55228 18 6 18.4477 6 19C6 19.5523 5.55228 20 5 20H3C1.34315 20 0 18.6569 0 17V15C0 14.4477 0.447715 14 1 14C1.55228 14 2 14.4477 2 15L2 17Z" fill="#777E91"/>
+                                                <path d="M21 6C21.5523 6 22 6.44772 22 7V9C22 9.55228 22.4477 10 23 10C23.5523 10 24 9.55228 24 9V7C24 5.34315 22.6569 4 21 4H19C18.4477 4 18 4.44772 18 5C18 5.55228 18.4477 6 19 6L21 6Z" fill="#777E91"/>
+                                                <path d="M5 8C4.44772 8 4 8.44772 4 9V15C4 15.5523 4.44772 16 5 16C5.55228 16 6 15.5523 6 15V9C6 8.44772 5.55228 8 5 8Z" fill="#777E91"/>
+                                                <path d="M18 8C17.4477 8 17 8.44772 17 9V15C17 15.5523 17.4477 16 18 16H19C19.5523 16 20 15.5523 20 15V9C20 8.44772 19.5523 8 19 8H18Z" fill="#777E91"/>
+                                                <path d="M8 9C8 8.44772 8.44772 8 9 8H10C10.5523 8 11 8.44772 11 9V15C11 15.5523 10.5523 16 10 16H9C8.44771 16 8 15.5523 8 15V9Z" fill="#777E91"/>
+                                                <path d="M14 8C13.4477 8 13 8.44772 13 9V15C13 15.5523 13.4477 16 14 16C14.5523 16 15 15.5523 15 15V9C15 8.44772 14.5523 8 14 8Z" fill="#777E91"/>
+                                                </svg> 2FA
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.659 10.6783C17.1839 10.0428 17.5483 9.26585 17.6982 8.41477C17.8671 7.45563 18 6.41137 18 5.5V0H6V5.5C6 6.41137 6.13289 7.45563 6.30179 8.41477C6.45166 9.26585 6.81607 10.0428 7.34102 10.6783C7.81255 11.2492 8.4136 11.706 9.10503 12C8.4136 12.294 7.81255 12.7508 7.34102 13.3217C6.81607 13.9572 6.45166 14.7341 6.30179 15.5852C6.13289 16.5444 6 17.5886 6 18.5V24H18V18.5C18 17.5886 17.8671 16.5444 17.6982 15.5852C17.5483 14.7341 17.1839 13.9572 16.659 13.3217C16.1875 12.7508 15.5864 12.294 14.895 12C15.5864 11.706 16.1875 11.2492 16.659 10.6783ZM16 22V18.5C16 17.7568 15.8889 16.8427 15.7285 15.9321C15.5575 14.9606 14.9297 14.1881 14.1124 13.8405L12 12.9423L9.88765 13.8405C9.07025 14.1881 8.44254 14.9606 8.27149 15.9321C8.11114 16.8427 8 17.7568 8 18.5V22H16ZM12 11.0577L14.1124 10.1595C14.9297 9.81191 15.5575 9.03936 15.7285 8.06793C15.8889 7.15732 16 6.24321 16 5.5V2H8V5.5C8 6.24321 8.11114 7.15732 8.27149 8.06793C8.44254 9.03936 9.07025 9.81191 9.88765 10.1595L12 11.0577Z" fill="#777E91"/>
+                                                <path d="M4 23C4 22.4477 4.44772 22 5 22H19C19.5523 22 20 22.4477 20 23C20 23.5523 19.5523 24 19 24H5C4.44772 24 4 23.5523 4 23Z" fill="#777E91"/>
+                                                <path d="M4 1C4 0.447715 4.44772 0 5 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H5C4.44772 2 4 1.55228 4 1Z" fill="#777E91"/>
+                                                <path d="M8 22C8 21.3871 8.34626 20.8269 8.89443 20.5528L11.1056 19.4472C11.6686 19.1657 12.3314 19.1657 12.8944 19.4472L15.1056 20.5528C15.6537 20.8269 16 21.3871 16 22H8Z" fill="#777E91"/>
+                                                </svg> Sessions & login history
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C10.2274 11 8.64844 11.0646 7.35838 11.1466C6.13471 11.2243 5.19379 12.158 5.10597 13.373C5.0435 14.2373 5 15.1481 5 16C5 16.8519 5.0435 17.7627 5.10597 18.627C5.19379 19.842 6.13471 20.7757 7.35838 20.8534C8.64844 20.9354 10.2274 21 12 21C13.7726 21 15.3516 20.9354 16.6416 20.8534C17.8653 20.7757 18.8062 19.842 18.894 18.627C18.9565 17.7627 19 16.8519 19 16C19 15.1481 18.9565 14.2373 18.894 13.373C18.8062 12.158 17.8653 11.2243 16.6416 11.1466C15.3516 11.0646 13.7726 11 12 11ZM7.2315 9.15059C5.01376 9.29156 3.27137 11.0124 3.11117 13.2288C3.04652 14.1234 3 15.085 3 16C3 16.915 3.04652 17.8766 3.11118 18.7712C3.27137 20.9876 5.01376 22.7084 7.23151 22.8494C8.55778 22.9337 10.1795 23 12 23C13.8205 23 15.4422 22.9337 16.7685 22.8494C18.9862 22.7084 20.7286 20.9876 20.8888 18.7712C20.9535 17.8766 21 16.915 21 16C21 15.085 20.9535 14.1234 20.8888 13.2288C20.7286 11.0124 18.9862 9.29156 16.7685 9.15059C15.4422 9.06629 13.8205 9 12 9C10.1795 9 8.55778 9.06629 7.2315 9.15059Z" fill="#777E91"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 16.7324C13.5978 16.3866 14 15.7403 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 15.7403 10.4022 16.3866 11 16.7324V18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18V16.7324Z" fill="#777E91"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V10C17 10.5523 16.5523 11 16 11C15.4477 11 15 10.5523 15 10V6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6V10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10V6Z" fill="#777E91"/>
+                                                </svg> Change password
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-xxl-9 col-lg-9 col-md-9 custom-form mx-700">
+
+                    <h1 class="mb-3 font-w-700">2FA <span class="text-red">Disabled</span></h1>
+                    <p class="text-grey font-12">If you want to turn on 2FA, input your account password and the six-digit code provided by the Google Authenticator app below, then click <a href="#" class="text-dark font-w-500"> "Enable 2FA" </a>.</p>
+                    <div class="mt-5">
+                        <h3 class="font-w-700">Enable 2FA</h3>
+                        <p>Enter your password and scan SQ code by the Google Authenticator app to Enable the 2FA verification</p>
+                        <p class="font-16 font-w-500 mt-4 mb-0"><svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5ZM4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4Z" fill="#23262F"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.2318 7.35984C5.58537 6.93556 6.21593 6.87824 6.64021 7.2318L11.3598 11.1648C11.7307 11.4739 12.2694 11.4739 12.6402 11.1648L17.3598 7.2318C17.7841 6.87824 18.4147 6.93556 18.7682 7.35984C19.1218 7.78412 19.0645 8.41468 18.6402 8.76825L13.9206 12.7013C12.808 13.6284 11.192 13.6284 10.0795 12.7013L5.35984 8.76825C4.93556 8.41468 4.87824 7.78412 5.2318 7.35984Z" fill="#23262F"/>
+                            </svg> schinner@artex.com
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-w-right-icon position-relative">
+                                <label class="text-light-grey font-w-700 text-uppercase font-12 mb-2">password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                                <i class="bi bi-eye"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4 text-center">
+                            <div class="login-register-bc-code-card-scaner">
+                                <div class="login-register-bc-code-card-scaner-white">
+                                    <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="16" y="16" width="128" height="128" rx="8" fill="#D6D8E0"/>
+                                <rect x="24" y="24" width="112" height="112" fill="url(#pattern0)"/>
+                                <rect x="1" y="1" width="158" height="158" rx="7" stroke="#3772FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 16"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_4244_28813" transform="scale(0.00195312)"/>
+                                </pattern>
+                                <image id="image0_4244_28813" width="512" height="512" xlink:href="data:image/png;base64,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"/>
+                                </defs>
+                                </svg>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary font-16 bg-success border-0 w-100-mobile mt-4" href="javascript:void(0)">Enable 2FA</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains
+                            <br/> Zackerychester
+                            <br/> Bahamas
+                            <br/> 732-528-4945 </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> Copyright © 2022 Artex All rights reserved </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none"> <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a> <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a> <a href="javascript:void(0)"><i class="bi bi-image"></i></a> <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>        </section>
+    <!-- Mobile Footer End -->
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+</body>
+
+</html>

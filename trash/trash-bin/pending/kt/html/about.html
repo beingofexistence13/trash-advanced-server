@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> </head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <!--                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                              <li><a class="dropdown-item" href="#"> About us </a></li>
+                              <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)" class="position-relative desktop-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                        </li>
+                        <li class="nav-item ms-3"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Wallet </a> </li>
+                        <li class="nav-item ms-3  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-3 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                        <li class="nav-item ms-4 d-none d-lg-inline-block">
+                            <a class="nav-link btn-secondary-border border-0" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Breadcrum Start -->
+    <section class="page-breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item"><a href="#">Company</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrum End -->
+    <!-- Page Content Start -->
+    <section class="inner-pages page-about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <h1 class="text-center" data-aos="fade-up" data-aos-duration="2000">The Future of Fine Arts. <br class="d-none d-md-block" /> World's first and only blockchain <br class="d-none d-md-block" /> based artpiece exchange platform</h1>
+                    <div class="about-video" data-aos="fade-up" data-aos-duration="2000">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/XO1pUa5fpAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 m-auto">
+                            <div class="about-artext-exchange" data-aos="fade-up" data-aos-duration="2000">
+                                <h1 class="about-title-border">Artex Exchange</h1>
+                                <p>Artex is, world's first and only blockchain based art investment platform that you can easily trade and manage your fine art investments anytime. First-class fine art pieces insured in line with the transparent pricing
+                                    of art experts from various countries, are tokenized on the blockchain in return for their insurance value. We believe into a world where not only a lucky and privileged few but everyone can invest in first-class artworks.</p>
+                                <div class="about-artext-exchange-img text-center pt-5">
+                                    <img src="images/about_exchange.png" alt="" class="d-none d-md-block" />
+                                    <img src="images/about_exchange_mobile.png" alt="" class="d-block d-md-none m-auto" />
+                                </div>
+                            </div>
+                            <div class="about-artext-believe py-5" data-aos="fade-up" data-aos-duration="2000">
+                                <h1 class="about-title-border">What We Believe</h1>
+                                <p>We believe in a world where not only the lucky and privileged people but every person can also acquire first-class artworks. Blockchain is the safest way to achieve this, and our vision is to provide the necessary products
+                                    and services with great transparency to ensure that acquiring and participating in artworks becomes the new trend of the crypto world. The future of finance is a democratic distribution. Power is in everyone’s hands</p>
+                            </div>
+                            <div class="about-artext-artworks pb-5" data-aos="fade-up" data-aos-duration="2000">
+                                <h1 class="about-title-border">Listing Artworks</h1>
+                                <p class="mb-1">Requests by artists, art galleries, and collectors to list first-class works of art are evaluated by an independent commission through the platform. Members of this commission are artist academics from various universities
+                                    around the world and leading curators of the art community. The financial value of the artwork is determined as a result of the evaluations of the commission.</p>
+                                <p class="m-0">The artwork insured at this value is tokenized on the blockchain according to its insured value and becomes ready to be listed on our platform for pre-sale.</p>
+                            </div>
+                            <div class="about-artext-team pb-5" data-aos="fade-up" data-aos-duration="2000">
+                                <h1 class="about-title-border">Our Team</h1>
+                                <p class="mb-4">We're lucky to have a diverse, passionate and international team, experienced in digital identity, blockchain, innovation, technology, and enterprise deployment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row team-members">
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-1.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Samed Sakman</h4>
+                                    <p class="m-0">Ceo of Artex</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-2.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p class="m-0">First name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-3.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p class="m-0">First name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-5 mb-sm-0">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-4.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p class="m-0">First name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mb-5 mb-sm-0">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-5.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p class="m-0">First name</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="team-card text-center text-sm-start" data-aos="fade-up" data-aos-duration="2000">
+                                <div class="team-card-img"> <img src="images/team-6.png" alt="Artex" /> </div>
+                                <div class="team-card-info pt-4 ps-0 ps-sm-5">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p class="m-0">First name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row about-listing">
+                        <div class="col-lg-10 m-auto">
+                            <h1 class="about-title-border">Listing </h1>
+                            <div class="row justify-content-center justify-content-md-start">
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/about-listing-1.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/about-listing-2.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/about-listing-3.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/about-listing-4.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/about-listing-5.png" alt="" /> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row about-partners">
+                        <div class="col-lg-10 m-auto">
+                            <h1 class="about-title-border">Our Partners </h1>
+                            <div class="row justify-content-center justify-content-md-start">
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-1.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-2.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-3.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-4.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4 mb-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-5.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-6.png" alt="" /> </div>
+                                </div>
+                                <div class="col-lg-3 col-6 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="about-listing-card"> <img src="images/partner-7.png" alt="" /> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row about-tokenomics">
+                        <div class="col-lg-10 m-auto">
+                            <h1 class="about-title-border" data-aos="fade-up" data-aos-duration="2000">Tokenomics </h1>
+                            <p data-aos="fade-up" data-aos-duration="2000">ARTEX Token has fixed maximum supply of 100.000.000 (100 million) in a way that cannot be changed. 50% of the total supply will be put into circulation in the first year. The remaining 50% supply will be put into circulation
+                                at predetermined periods within 4 years.</p>
+                            <div class="pt-4 pb-5" data-aos="fade-up" data-aos-duration="1000">
+                                <h3>Our Contract Address:</h3>
+                                <p>0xf1b032e7225d1c9068ce317a956a0e8007591ba0</p>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="about-tokenomics-left-info">
+                                        <ul>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Artex Platform Tokens</h3>
+                                                <p>25% (4 years lockup)</p>
+                                            </li>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Allocated Public Sale</h3>
+                                                <p>20% (No lockup)</p>
+                                            </li>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Research & Dev</h3>
+                                                <p>15% (1 years lockup)</p>
+                                            </li>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Exchange Listings</h3>
+                                                <p>15% (No lockup)</p>
+                                            </li>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Promotion</h3>
+                                                <p>15% (No lockup)</p>
+                                            </li>
+                                            <li data-aos="fade-up" data-aos-duration="1000">
+                                                <h3>Team</h3>
+                                                <p>10% (2 year lockup)</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-tokenomics-chart"> <img src="images/tokenomics_chart.png" alt="" />
+                                        <div class="about-tokenomics-chart-info d-none d-xl-block">
+                                            <ul>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span> Allocated Public Sale </span>
+                                                    <br/> 20% (No lockup) </li>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span> Research & Dev</span>
+                                                    <br/> 15% (1 years lockup) </li>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span> Exchange Listings </span>
+                                                    <br/> 15% (No lockup) </li>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span>Promotion </span>
+                                                    <br/> 15% (No lockup </li>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span> Team </span>
+                                                    <br/> 10% (2 year lockup) </li>
+                                                <li data-aos="fade-up" data-aos-duration="1000"> <span> Artex Platform Tokens </span>
+                                                    <br/> 25% (4 years lockup) </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content End -->
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains
+                            <br/> Zackerychester
+                            <br/> Bahamas
+                            <br/> 732-528-4945 </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> Copyright © 2022 Artex All rights reserved </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none"> <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a> <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a> <a href="javascript:void(0)"><i class="bi bi-image"></i></a> <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>        </section>
+    <!-- Mobile Footer End -->
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+</body>
+
+</html>

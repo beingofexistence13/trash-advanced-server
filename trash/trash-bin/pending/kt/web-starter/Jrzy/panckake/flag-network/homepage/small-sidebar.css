@@ -1,0 +1,261 @@
+@import url(./variables.css);
+
+@keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+
+#small-sidebar{
+    
+
+    background: var(--sidebar-bg);
+    border-right: var(--border-color);
+    border-left: var(--border-color);
+    
+    overflow: hidden;
+    /* animation: menuPopup 0.8s ease forwards; */
+    transition: all 0.5s linear;
+    
+    height: 0 !important;
+    width: 0 !important;
+    
+    position: fixed;
+    top: 70.3px;
+    left: 0;
+    
+    z-index: none !important;
+}
+#small-sidebar.active{
+    
+    width: 300px !important;
+    min-height: 100vh !important;
+}
+
+#ss-ul{
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    
+    /* height: 200rem !important; */
+    height: 99vh;
+    width: 100% !important;
+    
+    /* padding-top: 2rem !important; */
+    padding-bottom: 150vh !important;
+}
+
+.ss-li #searchbar-container{
+    background: red !important;
+}
+
+.ss-li{
+    
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+    min-height: 50px;
+    width: 250px;
+    
+    padding-left: 15px !important;
+}
+.ss-li:hover,.st:hover{
+
+    
+    background: var(--primary1o1-bg);
+}
+
+.strat-line{
+    
+    border-top: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-height: 1000rem !important;
+    width: 100%;
+    
+}
+
+.st{
+    
+    display: grid;
+    place-items: center;
+    border-bottom: var(--border-color);
+    transition: all 0.5s linear !important;
+    
+    min-height: 60px;
+    width: 100%;
+    
+    /* padding: 0 30px !important; */
+    
+}
+.st-main{
+    
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    place-items: center;
+    /* border-bottom: var(--border-color); */
+    
+    height: 60px;
+    width: 100%;
+    
+    padding: 0 30px !important;
+    
+}
+
+.st.active1o1{
+    
+    grid-template-rows: 60px 150px;
+    transition: all 0.5s linear;
+    
+    
+}
+
+.st.active1o1 ion-icon[name="chevron-forward-outline"]{
+    
+    transform: rotate(90deg)
+}
+.st.active1o1 .st-toggle{
+    
+    display: flex !important;
+    
+}
+.st a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.st-toggle {
+    
+    
+    /* overflow: hidden; */
+    display: none;
+    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s linear !important;
+    
+    
+    /* max-width: 0 !important; */
+    /* max-width: 0 !important; */
+    min-width: 100% !important;
+    width: 150px !important;
+    
+}
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #Media quires
+\*-----------------------------------*/
+@media(min-width:900px){
+    
+    
+    
+    /* #All khorafati{} */
+    #small-sidebar.close{
+        
+        display: block !important;
+        overflow: hidden;
+        transition: none !important;
+       
+        
+        width: 70px !important;
+        min-height: 200vh !important;
+        
+        
+        z-index: none !important;
+    }
+    #small-sidebar.close li,#small-sidebar.close .st-main{
+        
+        
+        overflow: hidden;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        max-width: 70px !important;
+        
+        
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    #small-sidebar.close a,#small-sidebar.close .st a,#small-sidebar.close ion-icon[name="chevron-forward-outline"]{
+        display: none !important;
+    }
+
+    /* #small-sidebar ion-icon{
+        
+        min-width: 70px;
+        
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* .ss-li a{
+        
+        display: none;
+    } */
+    
+    
+    #small-sidebar.active{
+        
+        width: 300px !important;
+        min-height: 200vh !important;
+        
+        transition: all 0.5s linear !important;
+        
+    }
+    #small-sidebar.active a,
+    #small-sidebar.active ion-icon[name="chevron-forward-outline"] {
+        display: block !important;
+    }    
+    #small-sidebar.active li,#small-sidebar.active .st{
+        
+        max-width: 300px !important;
+    }
+
+    /* #small-sidebar.active .ss-li a{
+        display: block;
+    } */
+
+    
+    
+}

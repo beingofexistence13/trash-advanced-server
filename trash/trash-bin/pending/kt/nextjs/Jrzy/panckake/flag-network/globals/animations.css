@@ -1,0 +1,48 @@
+@import url(./variables.css);
+
+/* #pnt-it1:hover{
+    
+    background: red;
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 50px;
+    width: 50px;
+} */
+
+#pnt-it1.active ion-icon[name="menu-outline"]{
+    
+    display: none;
+}
+#pnt-it1.active ion-icon[name="close-outline"]{
+    
+
+    display: block;
+}
+
+
+
+/* #pnt-it1:hover ion-icon[name="menu-outline"]{
+    
+    background: red;
+    display: none;
+} */
+/* #pnt-it1:hover ion-icon[name="close-outline"]{
+    
+    background: red;
+    display: none;
+    display: block;
+} */
+
+
+
+
+
+#pnt-it4:hover{
+    
+    /* background: red; */
+    
+}

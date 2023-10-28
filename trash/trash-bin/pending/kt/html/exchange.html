@@ -1,0 +1,1433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+
+<body class="body-bg-light">
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> 
+            <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> 
+            </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification">
+                                <i class="bi bi-bell"></i>
+                                <span class="notification-count"></span>
+                            </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item"> <a class="nav-link btn btn-primary" href="javascript:void(0)">Register</a> </li>
+                        <li class="nav-item ms-2"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Log in </a> </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <section class="inner-pages page-market-exchange p-3 p-md-0">
+
+        <div class="container-fluid">
+
+            <!-- Trade Header Start -->
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <section class="trading-view-header mb-3 mb-lg-1">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="d-flex mb-2 mb-sm-0 align-items-start w-100-mobile">
+                                        <div class="me-0">
+                                            <div class="trading-view-header-user-img d-flex align-items-center justify-content-start justify-content-sm-center"><img src="images/market-trend-user1.png" alt=""></div>
+                                            <p class="m-0 text-grey font-12 font-w-600">Mona Lisa</p>
+                                        </div>
+                                        <h1 class="font-w-700 me-4">MNLS/ARTEX</h1>
+                                        <div class="badge rounded-pill bg-success px-2 py-2  font-12 font-w-600">10x</div>
+                                    </div>
+                                    <div class="trading-view-header-left-info me-4 ms-0 ms-sm-4">
+                                        <h3 class="font-w-700 text-red">36,641.2</h3>
+                                        <p class="m-0 text-grey font-12 font-w-600 d-flex align-items-center pt-1"><i class="bi bi-currency-dollar dollar-circle me-1"></i> 36,641.20</p>
+                                    </div>
+                                    <div class="dwon-arrow-card ms-auto ms-lg-2"><i class="bi bi-chevron-down"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
+                                <div class="trading-view-top-watch d-flex flex-wrap justify-content-start justify-content-lg-end">
+                                    <div class="trading-view-top-watch-items">
+                                        <div class="trading-view-top-watch-items-chart-info">
+                                            <span class="font-12 d-block text-grey mb-2"> <img src="images/time.png" alt=""/>  24h change</span>
+                                            <p class="m-0 text-green font-w-600">520.80 +1.25%</p>
+                                        </div>
+                                    </div>
+                                    <div class="trading-view-top-watch-items">
+                                        <span class="font-12 d-block text-grey mb-2"><i class="bi bi-arrow-up"></i> 24h high</span>
+                                        <p class="m-0 font-w-600">520.80 +1.25%</p>
+                                    </div>
+                                    <div class="trading-view-top-watch-items">
+                                        <span class="font-12 d-block text-grey mb-2"><i class="bi bi-arrow-down"></i> 24h low</span>
+                                        <p class="m-0 font-w-600">520.80 +1.25%</p>
+                                    </div>
+                                    <div class="trading-view-top-watch-items">
+                                        <span class="font-12 d-block text-grey mb-2"><img src="images/chart_ico.png" alt=""/> 24h volume</span>
+                                        <p class="m-0 font-w-600">75.655.26</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Trade Header End -->
+
+            <!-- Trade Content Start -->
+            <div class="d-block d-lg-none row">
+                <div class="tab-d-1-btn d-flex align-items-center justify-content-between mb-3 nav nav-pills" id="pills-tab" role="tablist">
+                    <button type="button" class="tab-d-1-btn-items px-3 active flex-auto mb-0 mt-0 border-0" data-bs-toggle="pill" data-bs-target="#Exchange-Chart">Chart</button>
+                    <button type="button" class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0 border-0" data-bs-toggle="pill" data-bs-target="#Exchange-Order">Order books</button>
+                    <button type="button" class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0 border-0" data-bs-toggle="pill" data-bs-target="#Exchange-Trades">Trades</button>
+                </div>
+                <div class="tab-content exchange-tab-content bg-white p-3" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="Exchange-Chart">
+                        <div class="market-chart-view mb-4">
+                            <img src="images/market_chart.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Exchange-Order">
+                        <div class="market-views">
+                            <div class="market-views-filter d-flex align-items-center justify-content-between">
+                                <button type="button" class="market-views-filter-btn">
+                            <div class="market-views-filter-bar">
+                                <div class="market-views-filter-bar-items bg-orange"></div>
+                                <div class="market-views-filter-bar-items"></div>
+                                <div class="market-views-filter-bar-items bg-success"></div>
+                            </div>
+                        </button>
+                                <button type="button" class="market-views-filter-btn bg-transparent">
+                            <div class="market-views-filter-bar">
+                                <div class="market-views-filter-bar-items"></div>
+                                <div class="market-views-filter-bar-items"></div>
+                                <div class="market-views-filter-bar-items bg-success"></div>
+                            </div>
+                        </button>
+                                <button type="button" class="market-views-filter-btn bg-transparent">
+                            <div class="market-views-filter-bar">
+                                <div class="market-views-filter-bar-items bg-orange"></div>
+                                <div class="market-views-filter-bar-items"></div>
+                                <div class="market-views-filter-bar-items"></div>
+                            </div>
+                        </button>
+                                <select class="form-select">
+                            <option>10</option>
+                            <option>20</option>
+                            <option>30</option>
+                            <option>40</option>
+                        </select>
+                                <button type="button" class="market-views-filter-btn"> <i class="bi bi-chevron-down"></i> </button>
+                            </div>
+                            <div class="market-views-table mt-2">
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-0" width="33.33%">Price
+                                                    <br> (USDT) </th>
+                                                <th class="border-0" width="33.33%">Amounts
+                                                    <br> (MNLS) </th>
+                                                <th class="border-0 text-end" width="33.33%">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-red-light">
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-red-light">
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="my-3 d-flex">
+                                    <h5 class="m-0 text-green me-3 d-flex align-items-center">36,641.20 <i class="fas fa-long-arrow-alt-up ms-3 font-12"></i></h5>
+                                    <h5 class="m-0">36,641.20</h5>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-green-light">
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-green-light">
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Exchange-Trades">
+
+                        <div class="tab-d-1">
+                            <div class="tab-d-1-btn d-flex align-items-center">
+                                <div class="tab-d-1-btn-items px-3 active flex-auto mb-0 mt-0">All</div>
+                                <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0">Favourites</div>
+                            </div>
+                        </div>
+                        <div class="market-tab-search mx-100 market-views-search my-3">
+                            <input type="search" placeholder="Search">
+                            <button type="button" class="market-tab-search-btn"><i class="bi bi-search"></i></button>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table m-0 table-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="border-0">Pair<img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Price<img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Volume<img src="images/sort.png" alt="" class="ms-1"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="text-grey font-w-700 mt-4 mb-3">Matket Trades</div>
+                        <div class="table-responsive">
+                            <table class="table m-0 table-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="border-0">Price
+                                            <br> (USDT) </th>
+                                        <th class="border-0">Amount
+                                            <br> (BTC) </th>
+                                        <th class="border-0">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white mt-4 py-4">
+                    <select class="form-control form-select mobile-filter-btn-select mb-2">
+                    <option>Market trade</option>
+                </select>
+
+                    <div class="table-responsive">
+                        <table class="table m-0 table-sm">
+                            <thead>
+                                <tr>
+                                    <th class="border-0" width="25%">Time <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th class="border-0" width="33.33%">Price (USDT) <img src="images/sort.png" alt="" class="ms-1"></th>
+                                    <th class="border-0 text-end" width="33.33%">Amount (BTC) <img src="images/sort.png" alt="" class="ms-1"></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                                <tr>
+                                    <td>18:12:16</td>
+                                    <td class="text-green font-w-600">36,641.209735578</td>
+                                    <td class="text-end">0.245455484546</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="exchange-market-sell-buy">
+
+                    <div class="tab-content market-tab-content row" id="pills-tabContent">
+                        <div class="col-lg-6 col-md-6 mb-4 tab-pane" id="Market-Tab-Buy">
+                            <div class="card-buy-sell">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <p class="text-grey m-0 font-w-500 font-16">Place order</p>
+                                    <a class="exchange-market-sell-buy-close-btn" href="javascript:void(0)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#777E91"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29289 8.29289C8.68342 7.90237 9.31658 7.90237 9.70711 8.29289L12 10.5858L14.2929 8.29289C14.6834 7.90237 15.3166 7.90237 15.7071 8.29289C16.0976 8.68342 16.0976 9.31658 15.7071 9.70711L13.4142 12L15.7071 14.2929C16.0976 14.6834 16.0976 15.3166 15.7071 15.7071C15.3166 16.0976 14.6834 16.0976 14.2929 15.7071L12 13.4142L9.70711 15.7071C9.31658 16.0976 8.68342 16.0976 8.29289 15.7071C7.90237 15.3166 7.90237 14.6834 8.29289 14.2929L10.5858 12L8.29289 9.70711C7.90237 9.31658 7.90237 8.68342 8.29289 8.29289Z" fill="#777E91"/>
+                                </svg>
+                                </a>
+                                </div>
+                                <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                    <h2 class="m-0 font-w-700">Buy MNLS</h2>
+                                    <p class="m-0 d-flex align-items-center"> <img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                </div>
+                                <div class="mb-3 position-relative card-buy-sell-form-control">
+                                    <input type="text" class="form-control" placeholder="Amount" />
+                                    <p class="m-0 text-grey">MNLS</p>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                        <div class="card-custom-range-slider-per-items">25%</div>
+                                        <div class="card-custom-range-slider-per-items">50%</div>
+                                        <div class="card-custom-range-slider-per-items">75%</div>
+                                    </div>
+                                    <div class="card-custom-range-slider d-flex align-items-center">
+                                        <div class="card-custom-range-slider-point"></div>
+                                        <div class="card-custom-range-slider-border"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 position-relative card-buy-sell-form-control">
+                                    <input type="text" class="form-control" placeholder="Total" />
+                                    <p class="m-0 text-grey border-0">ARTEX</p>
+                                </div>
+                                <div class="card-buy-sell-btn">
+                                    <button type="button" class="d-block w-100 btn btn-green">Buy MNLS</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-4 tab-pane" id="Market-Tab-Sell">
+                            <div class="card-buy-sell">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <p class="text-grey m-0 font-w-500 font-16">Place order</p>
+                                    <a class="exchange-market-sell-buy-close-btn" href="javascript:void(0)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#777E91"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29289 8.29289C8.68342 7.90237 9.31658 7.90237 9.70711 8.29289L12 10.5858L14.2929 8.29289C14.6834 7.90237 15.3166 7.90237 15.7071 8.29289C16.0976 8.68342 16.0976 9.31658 15.7071 9.70711L13.4142 12L15.7071 14.2929C16.0976 14.6834 16.0976 15.3166 15.7071 15.7071C15.3166 16.0976 14.6834 16.0976 14.2929 15.7071L12 13.4142L9.70711 15.7071C9.31658 16.0976 8.68342 16.0976 8.29289 15.7071C7.90237 15.3166 7.90237 14.6834 8.29289 14.2929L10.5858 12L8.29289 9.70711C7.90237 9.31658 7.90237 8.68342 8.29289 8.29289Z" fill="#777E91"/>
+                                </svg>
+                                </a>
+                                </div>
+                                <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                    <h2 class="m-0 font-w-700">Sell MNLS</h2>
+                                    <p class="m-0 d-flex align-items-center"><img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                </div>
+                                <div class="mb-3 position-relative card-buy-sell-form-control">
+                                    <input type="text" class="form-control" placeholder="Amount" />
+                                    <p class="m-0 text-grey">MNLS</p>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                        <div class="card-custom-range-slider-per-items">25%</div>
+                                        <div class="card-custom-range-slider-per-items">50%</div>
+                                        <div class="card-custom-range-slider-per-items">75%</div>
+                                    </div>
+                                    <div class="card-custom-range-slider d-flex align-items-center">
+                                        <div class="card-custom-range-slider-point"></div>
+                                        <div class="card-custom-range-slider-border"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 position-relative card-buy-sell-form-control">
+                                    <input type="text" class="form-control" placeholder="Total" />
+                                    <p class="m-0 text-grey border-0">ARTEX</p>
+                                </div>
+                                <div class="card-buy-sell-btn">
+                                    <button type="button" class="d-block w-100 btn btn-orange">Sell MNLS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="mobile-bs-tab-btn d-flex exchange-market-btn nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="card-buy-sell-btn" role="presentation">
+                            <button type="button" class="d-block w-100 btn bg-success" data-bs-toggle="pill" data-bs-target="#Market-Tab-Buy">Buy</button>
+                        </li>
+                        <li class="card-buy-sell-btn" role="presentation">
+                            <button type="button" class="d-block w-100 btn bg-orange" data-bs-toggle="pill" data-bs-target="#Market-Tab-Sell">Sell</button>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="row d-none d-lg-flex">
+                <div class="col-lg-6 col-xl-6 col-xxl-8 p-0 mb-3 mb-md-0 market-chat-view-card-border">
+
+
+                    <div class="card-border border-top-0 page-exchange-left mb-3 mb-md-0 p-3">
+                        <div class="market-chart-view mb-4">
+                            <img src="images/market_chart.png" alt="" />
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <div class="tab-d-1">
+                                    <div class="tab-d-1-btn d-flex align-items-center">
+                                        <div class="tab-d-1-btn-items px-3 active flex-auto mb-0 mt-0">Limit</div>
+                                        <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0">Stop-limit</div>
+                                        <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0">Market</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center font-12 justify-content-end">
+                                    <p class="m-0 text-grey">Crypto trading tutorial</p>
+                                    <a href="javascript:void(0)" class="font-w-600 text-dark-grey ms-3">Learn now <i class="bi bi-chevron-right font-10"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 d-block d-md-none">
+                                <ul class="mobile-bs-tab-btn d-flex mb-4 nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="card-buy-sell-btn" role="presentation">
+                                        <button type="button" class="d-block w-100 btn" data-bs-toggle="pill" data-bs-target="#Market-Tab-Buy">Buy</button>
+                                    </li>
+                                    <li class="card-buy-sell-btn" role="presentation">
+                                        <button type="button" class="d-block w-100 btn" data-bs-toggle="pill" data-bs-target="#Market-Tab-Sell">Sell</button>
+                                    </li>
+                                </ul>
+                                <p class="text-center text-grey">Place order</p>
+                            </div>
+                            <div class="tab-content market-tab-content row" id="pills-tabContent">
+                                <div class="col-lg-6 col-md-6 tab-pane fade show active" id="Market-Tab-Buy">
+                                    <div class="card-buy-sell">
+                                        <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                            <h2 class="m-0 font-w-700">Buy MNLS</h2>
+                                            <p class="m-0 d-flex align-items-center"> <img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Amount" />
+                                            <p class="m-0 text-grey">MNLS</p>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                                <div class="card-custom-range-slider-per-items">25%</div>
+                                                <div class="card-custom-range-slider-per-items">50%</div>
+                                                <div class="card-custom-range-slider-per-items">75%</div>
+                                            </div>
+                                            <div class="card-custom-range-slider d-flex align-items-center">
+                                                <div class="card-custom-range-slider-point"></div>
+                                                <div class="card-custom-range-slider-border"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Total" />
+                                            <p class="m-0 text-grey border-0">ARTEX</p>
+                                        </div>
+                                        <div class="card-buy-sell-btn">
+                                            <button type="button" class="d-block w-100 btn btn-green">Buy MNLS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 tab-pane fade" id="Market-Tab-Sell">
+                                    <div class="card-buy-sell">
+                                        <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                            <h2 class="m-0 font-w-700">Sell MNLS</h2>
+                                            <p class="m-0 d-flex align-items-center"><img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Amount" />
+                                            <p class="m-0 text-grey">MNLS</p>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                                <div class="card-custom-range-slider-per-items">25%</div>
+                                                <div class="card-custom-range-slider-per-items">50%</div>
+                                                <div class="card-custom-range-slider-per-items">75%</div>
+                                            </div>
+                                            <div class="card-custom-range-slider d-flex align-items-center">
+                                                <div class="card-custom-range-slider-point"></div>
+                                                <div class="card-custom-range-slider-border"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Total" />
+                                            <p class="m-0 text-grey border-0">ARTEX</p>
+                                        </div>
+                                        <div class="card-buy-sell-btn">
+                                            <button type="button" class="d-block w-100 btn btn-orange">Sell MNLS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-border border-top-0 page-exchange-left mb-3 mb-md-0 p-3">
+                        <div class="tab-d-1">
+                            <div class="tab-d-1-btn d-flex align-items-center">
+                                <div class="tab-d-1-btn-items px-3 active flex-auto mt-0">Open orders</div>
+                                <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mt-0">Orders History</div>
+                                <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mt-0">Trade History</div>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table m-0 table-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="border-0">Date <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Pair <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Type <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Slide <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Price <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Amount <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Filled <img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="text-blue border-0">Cancel all</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>07-03-2022</td>
+                                        <td>Pair</td>
+                                        <td>Type</td>
+                                        <td>Slide</td>
+                                        <td>$890</td>
+                                        <td>$1,00987</td>
+                                        <td>Filled</td>
+                                        <td> &nbsp; </td>
+                                    </tr>
+                                    <tr>
+                                        <td>07-03-2022</td>
+                                        <td>Pair</td>
+                                        <td>Type</td>
+                                        <td>Slide</td>
+                                        <td>$890</td>
+                                        <td>$1,00987</td>
+                                        <td>Filled</td>
+                                        <td> &nbsp; </td>
+                                    </tr>
+                                    <tr>
+                                        <td>07-03-2022</td>
+                                        <td>Pair</td>
+                                        <td>Type</td>
+                                        <td>Slide</td>
+                                        <td>$890</td>
+                                        <td>$1,00987</td>
+                                        <td>Filled</td>
+                                        <td> &nbsp; </td>
+                                    </tr>
+                                    <tr>
+                                        <td>07-03-2022</td>
+                                        <td>Pair</td>
+                                        <td>Type</td>
+                                        <td>Slide</td>
+                                        <td>$890</td>
+                                        <td>$1,00987</td>
+                                        <td>Filled</td>
+                                        <td> &nbsp; </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-2 p-0 mb-3 mb-md-0">
+                    <div class="card-border border-top-0 page-exchange-center mb-3 mb-md-0 h-100 p-2">
+                        <div class="market-views">
+                            <div class="market-views-filter d-flex align-items-center justify-content-between">
+                                <button type="button" class="market-views-filter-btn">
+                                    <div class="market-views-filter-bar">
+                                    <div class="market-views-filter-bar-items bg-orange"></div> 
+                                    <div class="market-views-filter-bar-items"></div>    
+                                    <div class="market-views-filter-bar-items bg-success"></div>
+                                    </div>
+                                </button>
+                                <button type="button" class="market-views-filter-btn bg-transparent">
+                                    <div class="market-views-filter-bar">
+                                    <div class="market-views-filter-bar-items"></div> 
+                                    <div class="market-views-filter-bar-items"></div>    
+                                    <div class="market-views-filter-bar-items bg-success"></div>
+                                    </div>
+                                </button>
+                                <button type="button" class="market-views-filter-btn bg-transparent">
+                                    <div class="market-views-filter-bar">
+                                    <div class="market-views-filter-bar-items bg-orange"></div> 
+                                    <div class="market-views-filter-bar-items"></div>    
+                                    <div class="market-views-filter-bar-items"></div>
+                                    </div>
+                                </button>
+                                <select class="form-select">
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                </select>
+                                <button type="button" class="market-views-filter-btn">
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="market-views-table mt-2">
+
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-0" width="33.33%">Price <br/> (USDT)
+                                                </th>
+                                                <th class="border-0" width="33.33%">Amounts <br/> (MNLS)
+                                                </th>
+                                                <th class="border-0 text-end" width="33.33%">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-red-light">
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-red-light">
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-red-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-red">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="my-3 d-flex">
+                                    <h5 class="m-0 text-green me-3 d-flex align-items-center">36,641.20 <i class="fas fa-long-arrow-alt-up ms-3 font-12"></i></h5>
+                                    <h5 class="m-0">36,641.20</h5>
+                                </div>
+
+
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-green-light">
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr class="bg-green-light">
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end bg-green-light">28,020.98</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-green">36920.12</td>
+                                                <td>0.758965</td>
+                                                <td class="text-end">28,020.98</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-2 p-0">
+                    <div class="card-border h-100 border-top-0 page-exchange-right p-2">
+                        <div class="tab-d-1">
+                            <div class="tab-d-1-btn d-flex align-items-center">
+                                <div class="tab-d-1-btn-items px-3 active flex-auto mb-0 mt-0">All</div>
+                                <div class="tab-d-1-btn-items px-3 flex-auto bg-transparent mb-0 mt-0">Favourites</div>
+                            </div>
+                        </div>
+                        <div class="market-tab-search mx-100 market-views-search my-3">
+                            <input type="search" placeholder="Search">
+                            <button type="button" class="market-tab-search-btn"><i class="bi bi-search"></i></button>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table m-0 table-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="border-0">Pair<img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Price<img src="images/sort.png" alt="" class="ms-1"></th>
+                                        <th class="border-0">Volume<img src="images/sort.png" alt="" class="ms-1"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-red">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-1 font-16"></i>ETC <span class="text-grey">/BTC</span> </td>
+                                        <td class="text-green">0.758965</td>
+                                        <td>28,020.98</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="text-grey font-w-700 mt-4 mb-3">Matket Trades</div>
+                        <div class="table-responsive">
+                            <table class="table m-0 table-sm">
+                                <thead>
+                                    <tr>
+                                        <th class="border-0">Price <br/> (USDT)
+                                        </th>
+                                        <th class="border-0">Amount <br/> (BTC)
+                                        </th>
+                                        <th class="border-0">Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-green py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-red py-0 font-w-600">36,780.64</td>
+                                        <td class="py-0">0.135420</td>
+                                        <td class="py-0">18:12:16</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Trade Content End -->
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Footer Start -->
+    <footer class="d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains <br/> Zackerychester <br/> Bahamas <br/> 732-528-4945
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email">
+                            <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    Copyright © 2022 Artex All rights reserved
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none">
+        <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-image"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>
+    </section>
+    <!-- Mobile Footer End -->
+
+
+
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+
+
+</body>
+
+</html>

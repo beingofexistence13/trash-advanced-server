@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .icon,ion-icon{
+    
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+
+
+
+.icon_container{
+    
+    background: red;
+}
+.icons{
+    
+    
+    /* -webkit-mask: url(./icons/telescope.svg) no-repeat center; */
+    /* mask: url(./icons/telescope.svg) no-repeat center; */
+    /* background: url(./icons/telescope.svg) no-repeat center; */
+    /* filter: invert(1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+    
+    height: 15px;
+    width: 15px;
+}

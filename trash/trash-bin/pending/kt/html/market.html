@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> 
+            <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> 
+            </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification">
+                                <i class="bi bi-bell"></i>
+                                <span class="notification-count"></span>
+                            </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link active" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item"> <a class="nav-link btn btn-primary" href="javascript:void(0)">Register</a> </li>
+                        <li class="nav-item ms-2"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Log in </a> </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <section class="inner-pages page-market py-7">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="market-coin-header">
+                        <div class="row py-4 mobile-scroller">
+                            <div class="col-lg-4 col-md-4 mobile-scroller-market-items">
+                                <div class="market-coin-header-list d-flex">
+                                    <div class="market-coin-header-list-img d-flex align-items-center justify-content-center me-3"><img src="images/market-trend-user1.png" alt=""></div>
+                                    <div class="market-coin-header-list-info">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <p class="m-0">MNLS/USDT</p>
+                                            <div class="badge rounded-pill bg-success px-2 py-2 ms-3">+0.79%</div>
+                                        </div>
+                                        <h2>36,641.20</h2>
+                                        <small>36,641.20</small>
+                                    </div>
+                                    <div class="market-coin-header-list-chart ms-3 d-none d-sm-block">
+                                        <img src="images/chart_green.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 mobile-scroller-market-items">
+                                <div class="market-coin-header-list d-flex">
+                                    <div class="market-coin-header-list-img d-flex align-items-center justify-content-center me-3"><img src="images/market-trend-user2.png" alt=""></div>
+                                    <div class="market-coin-header-list-info">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <p class="m-0">ARTEX/USDT</p>
+                                            <div class="badge rounded-pill bg-success px-2 py-2 ms-3">+2.96%</div>
+                                        </div>
+                                        <h2>3,641.20</h2>
+                                        <small>36,641.20</small>
+                                    </div>
+                                    <div class="market-coin-header-list-chart ms-3 d-none d-sm-block">
+                                        <img src="images/chart_green.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 mobile-scroller-market-items">
+                                <div class="market-coin-header-list d-flex">
+                                    <div class="market-coin-header-list-img d-flex align-items-center justify-content-center me-3"><img src="images/market-trend-user3.png" alt=""></div>
+                                    <div class="market-coin-header-list-info">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <p class="m-0">GWPE/USDT</p>
+                                            <div class="badge rounded-pill bg-orange px-2 py-2 ms-3">-0.79%</div>
+                                        </div>
+                                        <h2>41.20</h2>
+                                        <small>41.20</small>
+                                    </div>
+                                    <div class="market-coin-header-list-chart ms-3 d-none d-sm-block">
+                                        <img src="images/chart_red.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4 align-items-center border-top">
+                            <div class="col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+                                <div class="market-tab-btn">
+                                    <a href="javascript:void(0)"><i class="bi bi-star-fill me-1"></i> Favourites</a>
+                                    <a href="javascript:void(0)" class="active">All Art Work</a>
+                                    <a href="javascript:void(0)">Painting</a>
+                                    <a href="javascript:void(0)">Sculpture</a>
+                                    <a href="javascript:void(0)">Digital Art</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="market-tab-search mx-auto ms-lg-auto me-lg-0">
+                                    <input type="search" placeholder="Search">
+                                    <button type="button" class="market-tab-search-btn"><i class="bi bi-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- Market Trend Start -->
+        <section class="market-trend">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="table-responsive d-none d-lg-block">
+                            <table class="table m-0 table-market table-market-page table-border" border="0">
+                                <thead>
+                                    <tr>
+                                        <th># <img src="images/sort.png" alt="" class="ms-1" /> </th>
+                                        <th>Name <img src="images/sort.png" alt="" class="ms-1" /></th>
+                                        <th>Price <img src="images/sort.png" alt="" class="ms-1" /></th>
+                                        <th>24h %</th>
+                                        <th>7d %</th>
+                                        <th>
+                                            <div class="d-flex align-items-center"> Marketcap <i class="bi bi-currency-dollar dollar-circle dollar-circle-dark ms-1"></i></div>
+                                        </th>
+                                        <th>Volume (24h) <img src="images/chart_ico.png" alt=""></th>
+                                        <th width="190" class="text-center">Chart</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user1.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user2.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_red.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user3.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user1.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user2.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_red.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user3.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user1.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_red.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user2.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user3.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_green.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-star me-2"></i> 1</td>
+                                        <td class="table-market-user-name">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/market-trend-user1.png" alt="" /></div> Mona Lisa <span class="ps-3 text-light-grey"> MNLS</span> </div>
+                                        </td>
+                                        <td>$1,136,201.34</td>
+                                        <td class="text-green">+1.71%</td>
+                                        <td class="text-red"> -1.71%</td>
+                                        <td>$328,564,656,654</td>
+                                        <td>$328,564,656,654</td>
+                                        <td align="Center">
+                                            <div class="table-market-page-hover-chart"> <img src="images/chart_red.png" alt="" /> </div>
+                                            <a class="btn-secondary-border" href="javascript:void(0)">Buy</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="mobile-market-table d-block d-lg-none">
+                            <table class="table table-market">
+                                <tbody>
+                                    <tr>
+                                        <td class="table-market-user-name" colspan="2">
+                                            <div class="d-flex align-items-center font-16">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> EOS <span class="ps-3 text-light-grey"> EOS.IO</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-market-user-name font-16" colspan="2">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> Ethereum <span class="ps-3 text-light-grey"> ETH</span> </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-market-user-name font-16" colspan="2">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> EOS <span class="ps-3 text-light-grey"> EOS.IO</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-market-user-name font-16" colspan="2">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> Ethereum <span class="ps-3 text-light-grey"> ETH</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-market-user-name font-16" colspan="2">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> EOS <span class="ps-3 text-light-grey"> EOS.IO</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" class="p-0">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-market-user-name font-16" colspan="2">
+                                            <div class="d-flex align-items-center">
+                                                <div class="table-market-user-name-img d-flex align-items-center justify-content-center me-2 me-lg-4"><img src="images/artex-sm.png" alt="" /></div> Ethereum <span class="ps-3 text-light-grey"> ETH</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Price</td>
+                                        <td align="right">$1,136,201.34</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24h</td>
+                                        <td class="text-green" align="right">+6.04%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7d</td>
+                                        <td class="text-red" align="right">-1.71%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketcap</td>
+                                        <td align="right">$328,564,656,654</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Market Trend End -->
+
+
+    </section>
+
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains <br/> Zackerychester <br/> Bahamas <br/> 732-528-4945
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email">
+                            <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    Copyright © 2022 Artex All rights reserved
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none">
+        <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-image"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>
+    </section>
+    <!-- Mobile Footer End -->
+
+
+
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import url(./boostrap.css);
+
+@import url(./pro_navbartop.css);
+@import url(./small-sidebar.css);
+@import url(./animations.css);
+@import url(./variables.css);
+@import url(./login.css);
+@import url(./homepage.css);
+@import url(./footer.css);
+@import url(./crypto-dragons_intro.css);
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap'); */
+
+*{
+    color: var(--icon-color) !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    /* font-family: 'Playfair Display', serif; */    
+}
+::-webkit-scrollbar{
+    
+    display: none !important;
+}
+html{
+    
+    width: 100% !important;
+}
+body{
+    
+   
+    background: var(--body-bg);
+    min-height: 100vh !important;
+    width: 100% !important;
+}
+ul,li,h1,h2,h3,h5,h5,h6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+main{
+    
+    background: var(--body-bg);
+    min-height: 100vh;
+    
+    width: 100%;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    padding-top: 75px !important;
+    
+    z-index: 0;
+}
+
+
+#pro_main_container{
+  
+  min-height: 200vh;
+  width: 100%;
+  
+  
+}
+.op-bg-tx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+        text-align: center;
+        
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        min-width: 100%;
+}
+
+
+.overlay{
+    
+    display: none;
+    background: #000000;
+    opacity: 0.50;
+    min-height: 200vh !important;
+    width: 100%;
+    
+    position: fixed;
+    /* top: 50px; */
+    left: 0;
+    
+    z-index: 500 !important;
+}
+.overlay.active{
+    display: block;
+}
+
+
+@media(min-width:900px){
+    
+    main{
+        
+        left: 70px;
+        
+    }
+    /* main h1{
+        
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } */
+}
+
+
+
+
+
+.d-f{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

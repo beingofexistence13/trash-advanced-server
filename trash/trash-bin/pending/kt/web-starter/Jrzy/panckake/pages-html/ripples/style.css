@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    
+    --ripple-width: 500px;
+    --ripple-height: 500px;
+    
+}
+
+
+
+
+
+
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+#ripple90{
+    
+    /* overflow: hidden !important; */
+    /* position: relative; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #D4FFCA;
+    color: #000000;
+    
+    height: 300px;
+    width: 90%;
+    
+    /* margin-inline: auto; */
+}
+#ripple-test2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden !important; */
+    /* position: relative; */
+    background: #FFD1D1;
+    color: #000000;
+    height: 300px;
+    width: 90%;
+    
+    /* margin-inline: auto; */
+    
+    /* margin-top: 2rem; */
+}
+
+
+
+
+.ripple{
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+@keyframes ripples {
+  0%{
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: var(--ripple-width);
+    height: var(--ripple-height);
+    opacity: 0.2;
+  }
+}
+span {
+
+  /* overflow: hidden !important; */
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: ripples 1s linear infinite;
+  
+}

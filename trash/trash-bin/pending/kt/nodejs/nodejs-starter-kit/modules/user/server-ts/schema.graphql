@@ -1,0 +1,209 @@
+type User {
+  id: Int!
+  username: String!
+  role: String!
+  isActive: Boolean
+  email: String!
+  profile: UserProfile
+  auth: UserAuth
+
+  verification: UserVerification
+  mobile: UserMobile
+}
+
+type UserProfile {
+  firstName: String
+  lastName: String
+  fullName: String
+  mobile: String
+  avatar: String
+}
+
+type UserVerification {
+  id: Int
+  isEmailVerified: Boolean
+  isMobileVerified: Boolean
+  createdAt: String
+  updatedAt: String
+}
+
+type UserMobile {
+  id: Int
+  mobile: String!
+  otpSent: Boolean
+  isVerified: Boolean
+  error: String
+}
+
+# Additional authentication service info
+type UserAuth {
+  certificate: CertificateAuth
+  facebook: FacebookAuth
+  google: GoogleAuth
+  github: GithubAuth
+  linkedin: LinkedInAuth
+}
+
+type CertificateAuth {
+  serial: String
+}
+
+type FacebookAuth {
+  fbId: String
+  displayName: String
+}
+
+type GoogleAuth {
+  googleId: String
+  displayName: String
+}
+
+type GithubAuth {
+  ghId: String
+  displayName: String
+}
+
+type LinkedInAuth {
+  lnId: String
+  displayName: String
+}
+
+type UserEdges {
+  node: User
+  cursor: Int
+}
+
+type UserList {
+  totalCount: Int
+  edges: [UserEdges]
+  pageInfo: UserPageInfo
+}
+
+type UserPageInfo {
+  endCursor: Int
+  hasNextPage: Boolean
+}
+
+extend type Query {
+  # Get all users ordered by: OrderByUserInput add filtered by: FilterUserInput
+  users(orderBy: OrderByUserInput, filter: FilterUserInput): [User]
+  # Get user by id
+  user(id: Int!): UserPayload
+  # Get current user
+  currentUser: User
+  userList(limit: Int, after: Int, filter: FilterUserInput): UserList
+}
+
+type UserPayload {
+  user: User
+}
+
+extend type Mutation {
+  # Create new user
+  addUser(input: AddUserInput!): UserPayload!
+  # Edit a user
+  editUser(input: EditUserInput!): UserPayload!
+  # Delete a user
+  deleteUser(id: Int!): UserPayload!
+
+  # Add Mobile for a user
+  addUserMobile(input: AddMobileInput!): UserMobile!
+}
+
+# Input for ordering users
+input OrderByUserInput {
+  # id | username | role | isActive | email
+  column: String
+  # asc | desc
+  order: String
+}
+
+# Input for filtering users
+input FilterUserInput {
+  # search by username or email
+  searchText: String
+  # filter by role
+  role: String
+  # filter by isActive
+  isActive: Boolean
+}
+
+# Additional authentication service info
+input AuthInput {
+  certificate: AuthCertificateInput
+  facebook: AuthFacebookInput
+  google: AuthGoogleInput
+  github: AuthGitHubInput
+  linkedin: AuthLinkedInInput
+}
+
+input AuthCertificateInput {
+  serial: String
+}
+
+input AuthFacebookInput {
+  fbId: String
+  displayName: String
+}
+
+input AuthGoogleInput {
+  googleId: String
+  displayName: String
+}
+
+input AuthGitHubInput {
+  ghId: String
+  displayName: String
+}
+
+input AuthLinkedInInput {
+  lnId: String
+  displayName: String
+}
+
+# Input for addUser Mutation
+input AddUserInput {
+  username: String!
+  email: String!
+  password: String!
+  role: String!
+  isActive: Boolean
+  profile: ProfileInput
+  auth: AuthInput
+}
+
+# Input for editUser Mutation
+input EditUserInput {
+  id: Int!
+  username: String!
+  role: String!
+  isActive: Boolean
+  email: String!
+  password: String
+  profile: ProfileInput
+  auth: AuthInput
+}
+
+input ProfileInput {
+  firstName: String
+  lastName: String
+  avatar: String
+}
+
+# Input for Mobile Verificaton Mutation
+input AddMobileInput {
+  id: Int
+  mobile: String!
+  otp: Int
+}
+
+extend type Subscription {
+  # Subscription for users list
+  usersUpdated(filter: FilterUserInput): UpdateUserPayload
+}
+
+# Payload for usersUpdated Subscription
+type UpdateUserPayload {
+  mutation: String!
+  node: User!
+}

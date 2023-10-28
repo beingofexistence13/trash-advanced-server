@@ -1,0 +1,14 @@
+{
+  "name": "bash",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "bash":"bash bash.sh"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

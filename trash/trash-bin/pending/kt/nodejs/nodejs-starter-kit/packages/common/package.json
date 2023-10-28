@@ -1,0 +1,38 @@
+{
+  "name": "common",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "eslint": "eslint --fix --ext js --ext jsx --ext json .",
+    "tslint": "tslint --fix -p tsconfig.json -c ../../tslint.json",
+    "lint": "yarn eslint && yarn tslint"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "1.4.2",
+    "apollo-cache-router": "^1.1.6",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.0.6",
+    "apollo-link-batch-http": "^1.2.11",
+    "apollo-link-state": "^0.4.1",
+    "apollo-link-ws": "^1.0.3",
+    "apollo-logger": "^0.3.3",
+    "apollo-utilities": "^1.0.11",
+    "connected-react-router": "^6.5.2",
+    "graphql": "^14.3.1",
+    "i18next": "^11.2.3",
+    "i18next-browser-languagedetector": "^2.1.0",
+    "lodash": "^4.17.4",
+    "minilog": "^3.1.0",
+    "react-i18next": "^10.12.2",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.2",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "devDependencies": {
+    "@types/i18next-browser-languagedetector": "^2.0.1",
+    "chai": "^4.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  }
+}

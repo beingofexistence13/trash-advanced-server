@@ -1,0 +1,118 @@
+@import url(./variables.css);
+
+#pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
+    display: none;
+}
+
+#pro_navbartop_container{
+    
+    /* background:
+    rgba( 255, 255, 255, 0.5 ); */
+    /* box-shadow:
+    0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter:
+    blur( 10.5px );
+    -webkit-backdrop-filter:
+    blur( 10.5px );
+    /* border-radius:
+    10px; */
+    /* border:
+    1px solid rgba( 255, 255, 255, 0.18 ); */    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: var(--border-color);
+    
+    background: var(--glass-bg);
+    
+    height: 72px;
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 5%;
+    
+    z-index: 51;
+}
+#pro_navbartop_container ul{
+    
+    display: grid;
+    grid-template-columns: 40px 30px 3fr 30px 30px 85px;
+    column-gap: 5px;
+    
+    height: 70px;
+    min-width: 100%;
+    
+}
+.pnt-li{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* height: 50px; */
+    width: 100%;
+}
+.pnt-it{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#pnt-it1,#pnt-it4,#pnt-it5,#login_header .icon{
+    
+    background: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 30px;
+    width: 30px;
+}
+#pnt-it1{
+    
+    height: 40px;
+    width: 40px;
+
+}
+#pnt-in{
+    
+    font-size: 20px;
+    color: #000000;
+}
+
+
+#pnt-it5.active ion-icon[name="sunny-outline"]{
+    display: none;
+}
+#pnt-it5.active ion-icon[name="moon-outline"]{
+    display: block;
+}
+
+.btn{
+    
+    border: var(--border-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:900px){
+    
+    /* #pro_navbartop_container{
+        
+        padding: 0 100px;
+    } */    
+
+}

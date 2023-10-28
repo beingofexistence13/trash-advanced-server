@@ -1,0 +1,392 @@
+@import url(./variables.css);
+
+@keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+
+#small-sidebar{
+    
+
+    border: var(--border-color);
+    background: var(--sidebar-color) !important;
+    
+    border-right: var(--border-color);
+    border-left: var(--border-color);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* row-gap:30px; */
+    /* column-gap: 30px; */
+    overflow: hidden;
+    /* animation: menuPopup 0.8s ease forwards; */
+    transition: all 0.5s linear;
+    
+    height: 0 !important;
+    width: 0 !important;
+    
+    position: fixed;
+    top: 100px;
+    left: 0;
+    
+    
+    padding-top: 1rem;    
+    z-index: 50 !important;
+}
+#small-sidebar.active{
+    
+    width: 300px !important;
+    min-height: 100vh !important;
+}
+
+#ss-ul{
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    row-gap: 10px;
+    /* height: 200rem !important; */
+    height: 99vh;
+    width: 100% !important;
+    
+    /* padding-top: 2rem !important; */
+    padding-bottom: 150vh !important;
+}
+
+.ss-li #searchbar-container{
+    background: red !important;
+}
+
+.ss-li{
+    
+    display: flex;
+    align-items: center !important;
+    column-gap: 30px;
+    
+    min-height: 50px;
+    width: 250px;
+    
+    padding-left: 20px !important;
+}
+.ss-li:hover,.st:hover{
+
+    
+    background: var(--primary1o1-bg);
+    border-radius: 7px;
+    
+    
+}
+/* .ss-li:last-child{
+    
+    background: red;
+    border-bottom: var(--border-color);
+} */
+
+
+.strat-line{
+    
+    
+    border-top: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    
+    min-height: 1000rem !important;
+    width: 100%;
+    
+    /* padding-top: 1.5rem; */
+    margin-top: 0.5rem;
+}
+.c{
+    
+    margin-inline: auto !important;
+}
+.st{
+    
+    display: grid;
+    place-items: center;
+    border-bottom: var(--border-color);
+    transition: all 0.5s linear !important;
+    
+    min-height: 60px;
+    width: 100%;
+    
+    /* padding: 0 30px !important; */
+    
+}
+.st-main{
+    
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    place-items: center;
+    /* border-bottom: var(--border-color); */
+    
+    height: 60px;
+    width: 100%;
+    
+    padding: 0 30px !important;
+    
+}
+
+.st.active1o1{
+    
+    grid-template-rows: 60px 150px;
+    transition: all 0.5s linear;
+    
+    
+}
+
+.st.active1o1 ion-icon[name="chevron-forward-outline"]{
+    
+    transform: rotate(90deg)
+}
+.st.active1o1 .st-toggle{
+    
+    display: flex !important;
+    
+}
+.st a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.st-toggle {
+    
+    
+    /* overflow: hidden; */
+    display: none;
+    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s linear !important;
+    
+    min-width: 100% !important;
+    width: 150px !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#small-sidebar.close #ss-ul li{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: var(--primary-bg) !important;
+    transition: all 0.5s linear !important;
+    
+    min-width: 50px !important;
+    width: 50px !important;
+    max-width: 50px !important;
+    min-height: 50px !important;
+    
+    
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+}
+@keyframes friday-glow{
+    0%,100%{
+        filter:hue-rotate(0deg);
+    }
+    /* 25%{
+        
+    } */
+    50%{
+        filter:hue-rotate(360deg);
+    }
+    /* 100%{
+        
+    } */
+}
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #Media quires
+\*-----------------------------------*/
+@media(min-width:900px){
+    
+    
+    
+    /* #All khorafati{} */
+    #small-sidebar.close{
+        
+        display: block !important;
+        overflow: hidden;
+        transition: none !important;
+       
+        
+        width: 85px !important;
+        min-height: 200vh !important;
+        
+        
+        /* z-index: none !important; */
+    }
+    #small-sidebar.close .strat-line{
+        
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+        
+    }
+
+    
+    #small-sidebar.close li,#small-sidebar.close .st-main{
+        
+        
+        overflow: hidden;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        
+        height: 50px !important;
+        max-width: 85px !important;
+        
+        
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+
+    /* #small-sidebar ion-icon{
+        
+        min-width: 70px;
+        
+    } */
+    
+    
+    
+    
+    .close-active{
+      
+      display: block important;
+    }
+    
+      .close-deactive{
+      
+      display: none important;
+    }
+    
+    
+        #small-sidebar.close a,#small-sidebar.close .st a,#small-sidebar.close ion-icon[name="chevron-forward-outline"]{
+        display: none !important;
+    }
+    
+    
+    
+    
+    
+    
+    .close-active{
+      
+      display: block important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #small-sidebar.active{
+        
+        width: 300px !important;
+        min-height: 200vh !important;
+        
+        transition: all 0.5s linear !important;
+        
+    }
+    #small-sidebar.active a,
+    #small-sidebar.active ion-icon[name="chevron-forward-outline"] {
+        display: block !important;
+    }    
+    #small-sidebar.active li,#small-sidebar.active .st{
+        
+        max-width: 300px !important;
+    }
+
+
+    
+}
+
+
+#small-sidebar{
+  background: #000000 !important;
+}
+
+
+
+#small-sidebar{
+
+  padding: 0 !important;
+  
+}
+    
+
+
+
+
+
+
+
+
+
+
+#small-sidebar.close #ss-ul li:hover{
+    
+    border-radius: 10px;
+    animation: friday-glow 15s linear infinite;
+    color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1)) !important;
+    
+    /* box-shadow: 100px 100px 170px 0px rgba(255, 17, 17, 1); */
+    background: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1)) !important;
+  
+    
+    
+    
+}
+#small-sidebar.close #ss-ul li:hover ion-icon{
+    
+    animation: friday-glow 20s linear infinite !important;
+    /* color: indigo !important; */
+    color: #FFFFFF !important;
+    /* color: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1)) !important; */
+    
+}
+
+
+

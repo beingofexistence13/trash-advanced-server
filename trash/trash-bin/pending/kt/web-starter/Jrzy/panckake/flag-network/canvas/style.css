@@ -1,0 +1,33 @@
+
+*{
+    /* color: var(--icon-color) !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    /* font-family: 'Playfair Display', serif; */    
+}
+html{
+    
+    width: 100% !important;
+}
+body{
+    
+   
+    /* background: var(--body-bg); */
+    background: red;
+    min-height: 100vh !important;
+    width: 100% !important;
+}
+ul,li,h1,h2,h3,h5,h5,h6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+canvas{
+    
+    background: #000000;
+    min-height: 100vh;
+    width: 100%;
+}

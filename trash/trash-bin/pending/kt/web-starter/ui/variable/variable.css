@@ -1,0 +1,117 @@
+
+
+
+@media(min-width:900px){
+    
+    body{
+        
+        --pc-navbartop-height:  100px;
+        --navbartop-guidelines-height: 38px;
+        --navbartop-guidelines-corners-height: 45px;
+        
+        
+        
+        
+    }
+    body.dark{
+        --border-color: 2.5px solid hsla(242, 8%, 10%, 1);
+        
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+    --pc-navbartop-height: 60px;
+    --navbartop-guidelines-height: 25px;
+    --navbartop-guidelines-corners-height: 40px;
+
+
+
+
+
+
+
+    --icon-color: hsla(217, 0%, 0%, 1);
+    --glass-bg: rgba(255, 255, 255, 0.3);
+    --body-bg: hsla(0, 0%, 100%, 1);
+    --primary-bg: hsla(233, 100%, 97%, 1);
+    --primary1o1-bg: hsla(233, 0%, 100%, 1);
+    --primary1o2-bg: hsla(233, 27%, 25%, 1);
+
+    --sidebar-bg: hsla(217, 0%, 100%, 1);
+    --best-bg: hsla(217, 0%, 96%, 1);
+    /* --modal-bg: #F4F7FF; */
+
+    --border-color: 1px solid #EAEAEA;
+    --border-color-sm: 0.5px solid #EAEAEA;
+    --border-color-1o1: 1px solid #EAEAEA;
+    --primary1o2-bg: hsla(233, 100%, 97%, 1);
+
+
+    --homepage-bg: hsla(215, 0%, 100%, 1);
+
+
+}
+
+body.dark {
+
+    --icon-color: hsla(217, 0%, 0%, 1);
+    --glass-bg: rgba(255, 255, 255, 0.3);
+    --body-bg: hsla(0, 0%, 100%, 1);
+    --primary-bg: hsla(233, 100%, 97%, 1);
+    --primary1o1-bg: hsla(233, 0%, 100%, 1);
+    --primary1o2-bg: hsla(233, 27%, 25%, 1);
+
+    --sidebar-bg: hsla(217, 0%, 100%, 1);
+    --best-bg: hsla(217, 0%, 96%, 1);
+    /* --modal-bg: #F4F7FF; */
+
+    --border-color-sm: 0.5px solid #EAEAEA;
+    --border-color: 1px solid #EAEAEA;
+    --border-color-1o1: 1px solid #EAEAEA;
+    --primary1o2-bg: hsla(233, 100%, 97%, 1);
+
+
+    --homepage-bg: hsla(215, 0%, 100%, 1);
+
+
+}

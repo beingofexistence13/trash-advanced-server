@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> </head>
+
+<body>
+
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)" class="position-relative desktop-nav-header-icon-notification"> <i class="bi bi-bell"></i> <span class="notification-count"></span> </a>
+                        </li>
+                        <li class="nav-item ms-3"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Wallet </a> </li>
+                        <li class="nav-item ms-3  d-none d-lg-inline-block desktop-nav-header-icon">
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-3 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                        <li class="nav-item ms-4 d-none d-lg-inline-block">
+                            <a class="nav-link btn-secondary-border border-0" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Breadcrum Start -->
+    <section class="page-breadcrumb page-breadcrumb-with-title">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="mb-2 mb-md-0">ANTI-PHISHING CODE</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb m-0 justify-content-start justify-content-md-end">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Anti phishing code</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrum End -->
+
+
+    <!-- Page Content Start -->
+    <section class="inner-pages page-account-kyc py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-4 col-xxl-3">
+
+
+                    <a class="mobile-account-menu-btn d-flex d-md-none align-items-center collapsed" data-bs-toggle="collapse" href="#AccountMenuList" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13C8.13401 13 5 16.134 5 20V22C5 22.5523 4.55228 23 4 23C3.44772 23 3 22.5523 3 22V20C3 15.0294 7.02944 11 12 11C16.9706 11 21 15.0294 21 20V22C21 22.5523 20.5523 23 20 23C19.4477 23 19 22.5523 19 22V20C19 16.134 15.866 13 12 13Z" fill="#777E91"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11ZM12 13C15.3137 13 18 10.3137 18 7C18 3.68629 15.3137 1 12 1C8.68629 1 6 3.68629 6 7C6 10.3137 8.68629 13 12 13Z" fill="#777E91"/>
+            </svg> Account
+
+                        <svg class="ms-auto" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 0.792893C8.81658 0.402369 8.18342 0.402369 7.79289 0.792893L5 3.58579L2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792894 0.792893C0.402369 1.18342 0.402369 1.81658 0.792894 2.20711L4.29289 5.70711C4.68342 6.09763 5.31658 6.09763 5.70711 5.70711L9.20711 2.20711C9.59763 1.81658 9.59763 1.18342 9.20711 0.792893Z" fill="#777E91"/>
+                </svg>
+                    </a>
+
+                    <div class="page-account-menu-list collapse mb-4 md-md-0" id="AccountMenuList">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13C8.13401 13 5 16.134 5 20V22C5 22.5523 4.55228 23 4 23C3.44772 23 3 22.5523 3 22V20C3 15.0294 7.02944 11 12 11C16.9706 11 21 15.0294 21 20V22C21 22.5523 20.5523 23 20 23C19.4477 23 19 22.5523 19 22V20C19 16.134 15.866 13 12 13Z" fill="#777E91"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11ZM12 13C15.3137 13 18 10.3137 18 7C18 3.68629 15.3137 1 12 1C8.68629 1 6 3.68629 6 7C6 10.3137 8.68629 13 12 13Z" fill="#777E91"/>
+                        </svg> Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C15.3137 22 18 19.3137 18 16C18 12.6863 15.3137 10 12 10C8.68629 10 6 12.6863 6 16C6 19.3137 8.68629 22 12 22ZM12 24C16.4183 24 20 20.4183 20 16C20 11.5817 16.4183 8 12 8C7.58172 8 4 11.5817 4 16C4 20.4183 7.58172 24 12 24Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C13.1046 18 14 17.1046 14 16C14 14.8954 13.1046 14 12 14C10.8954 14 10 14.8954 10 16C10 17.1046 10.8954 18 12 18ZM12 20C14.2091 20 16 18.2091 16 16C16 13.7909 14.2091 12 12 12C9.79086 12 8 13.7909 8 16C8 18.2091 9.79086 20 12 20Z" fill="#777E91"/>
+                                    <path d="M7.23629 2C6.49291 2 6.00942 2.78231 6.34187 3.44721L8.92456 8.6126C8.30155 8.87227 7.71843 9.20847 7.18691 9.60943L4.55301 4.34164C3.55566 2.34694 5.00615 0 7.23629 0H8.76416C9.90047 0 10.9393 0.642007 11.4474 1.65836L12.0002 2.76391L12.553 1.65836C13.0612 0.642007 14.1 0 15.2363 0H16.7641C18.9943 0 20.4448 2.34694 19.4474 4.34164L16.8135 9.60944C16.282 9.20847 15.6989 8.87228 15.0759 8.6126L17.6586 3.44721C17.991 2.78231 17.5075 2 16.7641 2H15.2363C14.8575 2 14.5112 2.214 14.3418 2.55279L13.1182 4.99998L14.8865 8.53651C14.1052 8.23414 13.2645 8.05093 12.3868 8.00918L9.65858 2.55279C9.48919 2.214 9.14293 2 8.76416 2H7.23629Z" fill="#777E91"/>
+                                    </svg> Tier system</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5ZM5 3C2.79086 3 1 4.79086 1 7V17C1 19.2091 2.79086 21 5 21H19C21.2091 21 23 19.2091 23 17V7C23 4.79086 21.2091 3 19 3H5Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 12C13 9.23858 15.2386 7 18 7H22C22.5523 7 23 7.44772 23 8C23 8.55228 22.5523 9 22 9H18C16.3431 9 15 10.3431 15 12C15 13.6569 16.3431 15 18 15H22C22.5523 15 23 15.4477 23 16C23 16.5523 22.5523 17 22 17H18C15.2386 17 13 14.7614 13 12Z" fill="#777E91"/>
+                                    <path d="M19 12C19 12.5523 18.5523 13 18 13C17.4477 13 17 12.5523 17 12C17 11.4477 17.4477 11 18 11C18.5523 11 19 11.4477 19 12Z" fill="#777E91"/>
+                                    </svg> Wallet
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0)" class="active">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C10.2274 11 8.64844 11.0646 7.35838 11.1466C6.13471 11.2243 5.19379 12.158 5.10597 13.373C5.0435 14.2373 5 15.1481 5 16C5 16.8519 5.0435 17.7627 5.10597 18.627C5.19379 19.842 6.13471 20.7757 7.35838 20.8534C8.64844 20.9354 10.2274 21 12 21C13.7726 21 15.3516 20.9354 16.6416 20.8534C17.8653 20.7757 18.8062 19.842 18.894 18.627C18.9565 17.7627 19 16.8519 19 16C19 15.1481 18.9565 14.2373 18.894 13.373C18.8062 12.158 17.8653 11.2243 16.6416 11.1466C15.3516 11.0646 13.7726 11 12 11ZM7.2315 9.15059C5.01376 9.29156 3.27137 11.0124 3.11117 13.2288C3.04652 14.1234 3 15.085 3 16C3 16.915 3.04652 17.8766 3.11118 18.7712C3.27137 20.9876 5.01376 22.7084 7.23151 22.8494C8.55778 22.9337 10.1795 23 12 23C13.8205 23 15.4422 22.9337 16.7685 22.8494C18.9862 22.7084 20.7286 20.9876 20.8888 18.7712C20.9535 17.8766 21 16.915 21 16C21 15.085 20.9535 14.1234 20.8888 13.2288C20.7286 11.0124 18.9862 9.29156 16.7685 9.15059C15.4422 9.06629 13.8205 9 12 9C10.1795 9 8.55778 9.06629 7.2315 9.15059Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 16.7324C13.5978 16.3866 14 15.7403 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 15.7403 10.4022 16.3866 11 16.7324V18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18V16.7324Z" fill="#777E91"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V10C17 10.5523 16.5523 11 16 11C15.4477 11 15 10.5523 15 10V6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6V10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10V6Z" fill="#777E91"/>
+                                    </svg> Security Settings
+                                    <svg class="me-0 ms-4" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 0.792893C8.81658 0.402369 8.18342 0.402369 7.79289 0.792893L5 3.58579L2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792894 0.792893C0.402369 1.18342 0.402369 1.81658 0.792894 2.20711L4.29289 5.70711C4.68342 6.09763 5.31658 6.09763 5.70711 5.70711L9.20711 2.20711C9.59763 1.81658 9.59763 1.18342 9.20711 0.792893Z" fill="#777E91"/>
+                                        </svg>
+
+                                </a>
+                                <ul class="page-account-menu-list-submenu">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2 7C2 6.44772 2.44772 6 3 6H5C5.55228 6 6 5.55228 6 5C6 4.44772 5.55228 4 5 4H3C1.34315 4 0 5.34315 0 7V9C0 9.55228 0.447715 10 1 10C1.55228 10 2 9.55228 2 9V7Z" fill="#777E91"/>
+                                                <path d="M22 17C22 17.5523 21.5523 18 21 18L19 18C18.4477 18 18 18.4477 18 19C18 19.5523 18.4477 20 19 20L21 20C22.6569 20 24 18.6569 24 17V15C24 14.4477 23.5523 14 23 14C22.4477 14 22 14.4477 22 15V17Z" fill="#777E91"/>
+                                                <path d="M2 17C2 17.5523 2.44772 18 3 18H5C5.55228 18 6 18.4477 6 19C6 19.5523 5.55228 20 5 20H3C1.34315 20 0 18.6569 0 17V15C0 14.4477 0.447715 14 1 14C1.55228 14 2 14.4477 2 15L2 17Z" fill="#777E91"/>
+                                                <path d="M21 6C21.5523 6 22 6.44772 22 7V9C22 9.55228 22.4477 10 23 10C23.5523 10 24 9.55228 24 9V7C24 5.34315 22.6569 4 21 4H19C18.4477 4 18 4.44772 18 5C18 5.55228 18.4477 6 19 6L21 6Z" fill="#777E91"/>
+                                                <path d="M5 8C4.44772 8 4 8.44772 4 9V15C4 15.5523 4.44772 16 5 16C5.55228 16 6 15.5523 6 15V9C6 8.44772 5.55228 8 5 8Z" fill="#777E91"/>
+                                                <path d="M18 8C17.4477 8 17 8.44772 17 9V15C17 15.5523 17.4477 16 18 16H19C19.5523 16 20 15.5523 20 15V9C20 8.44772 19.5523 8 19 8H18Z" fill="#777E91"/>
+                                                <path d="M8 9C8 8.44772 8.44772 8 9 8H10C10.5523 8 11 8.44772 11 9V15C11 15.5523 10.5523 16 10 16H9C8.44771 16 8 15.5523 8 15V9Z" fill="#777E91"/>
+                                                <path d="M14 8C13.4477 8 13 8.44772 13 9V15C13 15.5523 13.4477 16 14 16C14.5523 16 15 15.5523 15 15V9C15 8.44772 14.5523 8 14 8Z" fill="#777E91"/>
+                                                </svg> 2FA
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.659 10.6783C17.1839 10.0428 17.5483 9.26585 17.6982 8.41477C17.8671 7.45563 18 6.41137 18 5.5V0H6V5.5C6 6.41137 6.13289 7.45563 6.30179 8.41477C6.45166 9.26585 6.81607 10.0428 7.34102 10.6783C7.81255 11.2492 8.4136 11.706 9.10503 12C8.4136 12.294 7.81255 12.7508 7.34102 13.3217C6.81607 13.9572 6.45166 14.7341 6.30179 15.5852C6.13289 16.5444 6 17.5886 6 18.5V24H18V18.5C18 17.5886 17.8671 16.5444 17.6982 15.5852C17.5483 14.7341 17.1839 13.9572 16.659 13.3217C16.1875 12.7508 15.5864 12.294 14.895 12C15.5864 11.706 16.1875 11.2492 16.659 10.6783ZM16 22V18.5C16 17.7568 15.8889 16.8427 15.7285 15.9321C15.5575 14.9606 14.9297 14.1881 14.1124 13.8405L12 12.9423L9.88765 13.8405C9.07025 14.1881 8.44254 14.9606 8.27149 15.9321C8.11114 16.8427 8 17.7568 8 18.5V22H16ZM12 11.0577L14.1124 10.1595C14.9297 9.81191 15.5575 9.03936 15.7285 8.06793C15.8889 7.15732 16 6.24321 16 5.5V2H8V5.5C8 6.24321 8.11114 7.15732 8.27149 8.06793C8.44254 9.03936 9.07025 9.81191 9.88765 10.1595L12 11.0577Z" fill="#777E91"/>
+                                                <path d="M4 23C4 22.4477 4.44772 22 5 22H19C19.5523 22 20 22.4477 20 23C20 23.5523 19.5523 24 19 24H5C4.44772 24 4 23.5523 4 23Z" fill="#777E91"/>
+                                                <path d="M4 1C4 0.447715 4.44772 0 5 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H5C4.44772 2 4 1.55228 4 1Z" fill="#777E91"/>
+                                                <path d="M8 22C8 21.3871 8.34626 20.8269 8.89443 20.5528L11.1056 19.4472C11.6686 19.1657 12.3314 19.1657 12.8944 19.4472L15.1056 20.5528C15.6537 20.8269 16 21.3871 16 22H8Z" fill="#777E91"/>
+                                                </svg> Sessions & login history
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="active">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C10.2274 11 8.64844 11.0646 7.35838 11.1466C6.13471 11.2243 5.19379 12.158 5.10597 13.373C5.0435 14.2373 5 15.1481 5 16C5 16.8519 5.0435 17.7627 5.10597 18.627C5.19379 19.842 6.13471 20.7757 7.35838 20.8534C8.64844 20.9354 10.2274 21 12 21C13.7726 21 15.3516 20.9354 16.6416 20.8534C17.8653 20.7757 18.8062 19.842 18.894 18.627C18.9565 17.7627 19 16.8519 19 16C19 15.1481 18.9565 14.2373 18.894 13.373C18.8062 12.158 17.8653 11.2243 16.6416 11.1466C15.3516 11.0646 13.7726 11 12 11ZM7.2315 9.15059C5.01376 9.29156 3.27137 11.0124 3.11117 13.2288C3.04652 14.1234 3 15.085 3 16C3 16.915 3.04652 17.8766 3.11118 18.7712C3.27137 20.9876 5.01376 22.7084 7.23151 22.8494C8.55778 22.9337 10.1795 23 12 23C13.8205 23 15.4422 22.9337 16.7685 22.8494C18.9862 22.7084 20.7286 20.9876 20.8888 18.7712C20.9535 17.8766 21 16.915 21 16C21 15.085 20.9535 14.1234 20.8888 13.2288C20.7286 11.0124 18.9862 9.29156 16.7685 9.15059C15.4422 9.06629 13.8205 9 12 9C10.1795 9 8.55778 9.06629 7.2315 9.15059Z" fill="#777E91"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 16.7324C13.5978 16.3866 14 15.7403 14 15C14 13.8954 13.1046 13 12 13C10.8954 13 10 13.8954 10 15C10 15.7403 10.4022 16.3866 11 16.7324V18C11 18.5523 11.4477 19 12 19C12.5523 19 13 18.5523 13 18V16.7324Z" fill="#777E91"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V10C17 10.5523 16.5523 11 16 11C15.4477 11 15 10.5523 15 10V6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6V10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10V6Z" fill="#777E91"/>
+                                                </svg> Change password
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-xxl-9 col-lg-9 col-md-9">
+                    <div class="page-account-kyc-info custom-form">
+
+
+                        <div class="col-md-6 m-auto col-lg-8 col-xl-6">
+                            <h1 class="m-0 font-w-700 text-center">ANTI-PHISHING <br/> CODE success</h1>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Content End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains
+                            <br/> Zackerychester
+                            <br/> Bahamas
+                            <br/> 732-528-4945 </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email"> <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a> </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> Copyright © 2022 Artex All rights reserved </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none"> <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a> <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a> <a href="javascript:void(0)"><i class="bi bi-image"></i></a> <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>        </section>
+    <!-- Mobile Footer End -->
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+</body>
+
+</html>

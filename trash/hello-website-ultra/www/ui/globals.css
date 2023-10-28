@@ -1,0 +1,507 @@
+/* Animation & Sidebar */
+@import url(./component/SideBar/sidebar.css);
+/* Navbar */
+@import url(./component/NavBar/navbar.css);
+@import url(./component/NavBar/add_container.css);
+@import url(./component/NavBar/profile_container.css);
+@import url(./component/NavBar/scan_container.css);
+@import url(./component/NavBar/notification_container.css);
+@import url(./component/contractus/contract_us.css);
+@import url(./component/FooTer/footer.css);
+/* Variables */
+@import url(./variable.css);
+@import url(./apple-telepoter.css);
+/* Freefire */
+@import url(./component/freefire/freefire_sidebar_left.css);
+@import url(./component/freefire/freefire_sidebar_right.css);
+@import url(./component/freefire/freefire_bottom.css);
+
+/* /////////////////////////////////////////////////////////
+                       New Starting ⭐⭐⭐                       
+   ////////////////////////////////////////////////////////*/
+*,*::before,*::after{
+    
+    fill: var(--icon-color);
+    stroke: var(--icon-color);
+    transition: all 0.5s linear;
+    color: var(--icon-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 1s linear ease-in;
+    user-select: none;
+    
+}
+
+/* Icons */
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span * {
+
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+
+    height: 17px;
+    width: 17px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    
+    color: var(--icon-color);
+    background: transparent;
+    
+}
+input{
+    
+    background: transparent;
+    outline: none;
+    border: none;
+    
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.icon-visible,
+.profile_close {
+
+    display: block;
+
+}
+ul,li,h1,h2,h3,h5,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    
+    background: var(--body-bg);
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  
+    position: relative;
+    
+    
+    min-height: 100vh;
+    width: 100%;
+    
+}
+main{
+    
+    
+    background: var(--body-bg);
+    
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+    width: 100%;
+    
+    
+    z-index: 0;
+}
+#main_container{
+  
+  
+  
+  min-height: 10rem;
+  width: 100%;
+  
+  
+  
+  
+  
+}
+.backdrop{
+    
+    display: none;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    height: 100vh;
+    width: 100%;
+    
+    z-index: 9999;
+}
+.backdrop.active{
+    
+    display: block;
+    
+}
+/* Useless */
+.sidebar_ul_line *,#sidebar_ul_line *{
+    column-gap: 0;
+    row-gap: 0;
+}
+.navbar_intro,#navbar_intro,
+.navbar_panckeswap-edition#navbar_panckeswap-edition{
+    display: none;
+}
+.contract_us,#contract_us,
+.multiverse_bottomnavbar,#multiverse_bottomnavbar{
+    display: none;
+}
+.side_nav,
+.bottom_nav,
+.contract_us {
+    
+    display: none;
+}
+.sidebar,.sidenon_close{
+    display: none;
+}
+.NDPCGDBLTC,
+.NDPCGDCLT,
+.NDPCGDBLT {
+
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: 100%;
+    height: 50px;
+}
+/* Small changes */
+.main_container {
+
+    text-align: center;
+}
+.border_none {
+
+    border: none;
+}
+.wallet_not_connect{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* row-gap: 15px; */
+    
+    min-height: 100vh;
+    width: 100%;
+    
+    z-index: -1;
+}
+.connect_button{
+    
+    border: var(--border-color);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    width: 200px;
+    height: 50px;
+}
+.wallet_not_connect h1{
+    
+    font-size: 2.5rem;
+    font-style: bold;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Starting */
+*{
+    text-align: center;
+}
+.menu::-webkit-scrollbar{
+    width: 0;
+}
+.navbar{
+    
+    border: none;
+    border-bottom: 3px solid #161616;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+}
+.sidebar_left{
+    
+    display: none ;
+}
+.sidebar_right{
+    
+    display: none ;
+}
+.main{
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    padding-top: 130px;
+    
+    width: 100%;
+    min-height: 100vh;
+}
+.hero{
+    
+    
+    min-height: 150vh;
+    width: 100%;
+}
+.footer{
+    
+    border-top: var(--border-color);
+    background: var(--body-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
+.sidebar{
+    display: block ;
+    border-left: none ;
+    
+}
+main{
+    margin-left: 80px;
+}
+.logo_container_navbar{
+    
+    
+    
+    height: 50px;
+}
+.navbar_logo{
+    
+    border-radius: 50%;
+    
+    height: 40px;
+    width: 40px;
+}
+
+
+.navbar{
+    
+    
+    border-bottom: var(--border-color);
+    
+}
+.backdrop{
+    
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    min-height: 200vh;
+    min-width: 100%;
+    
+    z-index: 10000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.never{
+    
+    
+    height: 100px;
+    width: 100px;
+    
+}
+ion-icon{
+    height: 17px;
+    width: 17px;
+}
+.logout_dropdown{
+    background: transparent ;
+    border: var(--border-color);
+}
+
+
+
+/* The Grand Reboot */
+main{
+    
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    
+}
+.sidebarLeft{
+    display: none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media(min-width:360px) and (max-width: 900px){
+    .navbar_ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+/* .NDPCGDBL{
+    position: relative;
+} */
+/* .NDPCGDBLIC{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+} */
+
+
+.sidebar,.hello{
+    display: block ;
+}
+.hello{
+    
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:900px) {
+    .main{
+        padding-left: 80px;
+    }
+    
+}

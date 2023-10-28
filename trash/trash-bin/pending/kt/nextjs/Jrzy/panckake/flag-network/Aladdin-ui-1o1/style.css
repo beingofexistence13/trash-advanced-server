@@ -1,0 +1,22 @@
+                    @import url(./mb.css);
+
+        
+        @media(min-width: 360px) and (max-width: 900px) {
+
+
+            @import url(./mb.css);
+
+            /* *{
+                background: blue;
+            } */
+
+        }
+
+        @media(min-width:900px) {
+
+            @import url(./pc.css);
+
+            /* *{
+                background: red;
+            } */
+        }

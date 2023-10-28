@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico">-->
+    <title>Artex</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+    <link rel="icon" href="images/favicon/favicon-16x16.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Animation css -->
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+
+<body class="body-bg-light">
+
+    <!-- Header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavbar" aria-controls="MenuNavbar" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon" id="navbar-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /> 
+                </svg>
+               </span> 
+            <span class="navbar-toggler-icon hidden" id="navbar-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </span> 
+            </button>
+                <div class="collapse navbar-collapse" id="MenuNavbar">
+                    <div class="mobile-nav-header d-flex d-lg-none justify-content-between align-items-center">
+                        <div class="mobile-nav-header-logo">
+                            <a href="index.html"> <img src="images/logo.png" alt="" /> </a>
+                        </div>
+                        <div class="mobile-nav-header-icon d-flex align-items-center">
+                            <a href="javascript:void(0)" class="position-relative mobile-nav-header-icon-notification">
+                                <i class="bi bi-bell"></i>
+                                <span class="notification-count"></span>
+                            </a>
+                            <a href="javascript:void(0)"> <i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav align-items-center ms-5">
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Market</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="javascript:void(0)">Easy Trade</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="javascript:void(0)">Art Pre-sale </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Company  </a>
+                            <ul class="dropdown-menu fade-up">
+                                <li><a class="dropdown-item" href="#"> About us </a></li>
+                                <li><a class="dropdown-item" href="#"> Help Center </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-center ms-auto">
+                        <li class="nav-item"> <a class="nav-link btn btn-primary" href="javascript:void(0)">Register</a> </li>
+                        <li class="nav-item ms-2"> <a class="nav-link btn-secondary-border" href="javascript:void(0)">Log in </a> </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none">
+                            <a class="nav-link btn-secondary-border" href="javascript:void(0)"> <i class="bi bi-brightness-high"></i> </a>
+                        </li>
+                        <li class="nav-item ms-2 d-inline-block d-lg-none ms-auto">
+                            <a class="mobile-search-icon" href="javascript:void(0)"> <i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-lg-inline-block"> <a class="nav-link text-uppercase text-dark" href="javascript:void(0)">EN/USD <i class="bi bi-chevron-down ms-2"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+    <section class="inner-pages page-easy-trade p-3 p-md-0">
+
+        <div class="container-fluid">
+
+            <!-- Trade Header Start -->
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <section class="trading-view-header mb-3 mb-md-1">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="d-flex mb-2 mb-sm-0">
+                                        <div class="me-0">
+                                            <div class="trading-view-header-user-img d-flex align-items-center justify-content-start justify-content-sm-center"><img src="images/market-trend-user1.png" alt=""></div>
+                                            <p class="m-0 text-grey font-12 font-w-600">Mona Lisa</p>
+                                        </div>
+                                        <h1 class="font-w-700 me-4">MNLS/ARTEX</h1>
+                                    </div>
+                                    <div class="trading-view-header-left-info me-4">
+                                        <h3 class="font-w-700 text-red">36,641.2</h3>
+                                        <p class="m-0 text-grey font-12 font-w-600 d-flex align-items-center pt-1"><i class="bi bi-currency-dollar dollar-circle me-1"></i> 36,641.20</p>
+                                    </div>
+                                    <div class="dwon-arrow-card ms-auto ms-lg-2"><i class="bi bi-chevron-down"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
+                                <div class="trading-view-top-watch d-flex flex-wrap justify-content-start justify-content-lg-end">
+                                    <div class="trading-view-top-watch-items">
+                                        <div class="d-flex">
+                                            <div class="trading-view-top-watch-items-chart me-4 d-none d-md-block">
+                                                <img src="images/chart_red.png" alt="">
+                                            </div>
+                                            <div class="trading-view-top-watch-items-chart-info">
+                                                <span class="font-12 d-block text-grey mb-2"> <img src="images/time.png" alt=""/>  24h change</span>
+                                                <p class="m-0 text-green font-w-600">520.80 +1.25%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trading-view-top-watch-items">
+                                        <span class="font-12 d-block text-grey mb-2"><img src="images/chart_ico.png" alt=""/> 24h volume</span>
+                                        <p class="m-0 font-w-600">75.655.26</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Trade Header End -->
+
+            <!-- Trade Content Start -->
+            <div class="row">
+                <div class="col-lg-3 p-0 mb-3 mb-md-0">
+                    <div class="card-border h-100 border-top-0 page-easy-trade-left-info">
+                        <div class="page-easy-trade-left-info-img">
+                            <img src="images/trade-user-1.png" alt="Artext">
+                        </div>
+                        <div class="page-easy-trade-left-info-content mt-5">
+                            <h1 class="font-w-700">Mona Lisa</h1>
+                            <div class="mb-4">
+                                <h5>Leonardo Davinci (1452-1519)</h5>
+                                <h5>Signed, Oil on Canvas, 77x53cm, 1519</h5>
+                            </div>
+                            <h2 class="font-w-700">Detail</h2>
+                            <p>Mona Lisa, also called Portrait of Lisa Gherardini, wife of Francesco del Giocondo, Italian La Gioconda, or French La Joconde, oil painting on a poplar wood panel by Leonardo da Vinci, probably the world’s most famous painting.
+                                It was painted sometime between 1503 and 1519, when Leonardo was living in Florence, and it now hangs in the Louvre Museum, Paris, where it remained an object of pilgrimage in the 21st century. The sitter’s mysterious smile
+                                and her unproven identity have made the painting a source of ongoing investigation and fascination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0 mb-3 mb-md-0">
+                    <div class="card-border border-top-0 page-easy-center mb-3 mb-md-0">
+                        <div class="row">
+                            <div class="col-lg-12 d-block d-md-none">
+                                <ul class="mobile-bs-tab-btn d-flex mb-4 nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="card-buy-sell-btn" role="presentation">
+                                        <button type="button" class="d-block w-100 btn active" data-bs-toggle="pill" data-bs-target="#Market-Tab-Buy">Buy</button>
+                                    </li>
+                                    <li class="card-buy-sell-btn" role="presentation">
+                                        <button type="button" class="d-block w-100 btn" data-bs-toggle="pill" data-bs-target="#Market-Tab-Sell">Sell</button>
+                                    </li>
+                                </ul>
+                                <p class="text-center text-grey">Place order</p>
+                            </div>
+                            <div class="tab-content market-tab-content row" id="pills-tabContent">
+                                <div class="col-lg-6 col-md-6 tab-pane fade show active" id="Market-Tab-Buy">
+                                    <div class="card-buy-sell">
+                                        <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                            <h2 class="m-0 font-w-700">Buy MNLS</h2>
+                                            <p class="m-0 d-flex align-items-center"> <img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Amount" />
+                                            <p class="m-0 text-grey">MNLS</p>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                                <div class="card-custom-range-slider-per-items">25%</div>
+                                                <div class="card-custom-range-slider-per-items">50%</div>
+                                                <div class="card-custom-range-slider-per-items">75%</div>
+                                            </div>
+                                            <div class="card-custom-range-slider d-flex align-items-center">
+                                                <div class="card-custom-range-slider-point"></div>
+                                                <div class="card-custom-range-slider-border"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Total" />
+                                            <p class="m-0 text-grey border-0">ARTEX</p>
+                                        </div>
+                                        <div class="card-buy-sell-btn">
+                                            <button type="button" class="d-block w-100 btn btn-green">Buy MNLS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 tab-pane fade" id="Market-Tab-Sell">
+                                    <div class="card-buy-sell">
+                                        <div class="card-buy-sell-header mb-3 d-flex align-items-center justify-content-between">
+                                            <h2 class="m-0 font-w-700">Sell MNLS</h2>
+                                            <p class="m-0 d-flex align-items-center"><img src="images/wallet.png" alt="" class="me-1" /> 24,656.65468 ARTEX</p>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Amount" />
+                                            <p class="m-0 text-grey">MNLS</p>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="d-flex card-custom-range-slider-per d-flex justify-content-around">
+                                                <div class="card-custom-range-slider-per-items">25%</div>
+                                                <div class="card-custom-range-slider-per-items">50%</div>
+                                                <div class="card-custom-range-slider-per-items">75%</div>
+                                            </div>
+                                            <div class="card-custom-range-slider d-flex align-items-center">
+                                                <div class="card-custom-range-slider-point"></div>
+                                                <div class="card-custom-range-slider-border"></div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 position-relative card-buy-sell-form-control">
+                                            <input type="text" class="form-control" placeholder="Total" />
+                                            <p class="m-0 text-grey border-0">ARTEX</p>
+                                        </div>
+                                        <div class="card-buy-sell-btn">
+                                            <button type="button" class="d-block w-100 btn btn-orange">Sell MNLS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-border border-top-0 page-easy-center artwork-card-height">
+                        <div class="easy-trade-center-market-value pt-3">
+                            <div class="d-xxl-flex justify-content-between align-items-center mb-3">
+                                <h3 class="mb-3 mb-xxl-0 font-w-700">Artwork Market Value <i class="bi bi-info-circle text-grey ms-1 ms-md-3"></i></h3>
+                                <h6 class="m-0 text-blue">9,210,000,000.00 ARTEX</h6>
+                            </div>
+                            <div class="accordion accordion-d-1" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-1" aria-expanded="true" aria-controls="Market-value-f-1">
+                        Condition Status
+                    </button>
+                                    </h2>
+                                    <div id="Market-value-f-1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Condition Status Comming soon...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-2" aria-expanded="false" aria-controls="Market-value-f-2">
+                        Expert Report
+                    </button>
+                                    </h2>
+                                    <div id="Market-value-f-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Expert Report Comming soon...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-3" aria-expanded="false" aria-controls="Market-value-f-3">
+                        Insurance Report
+                    </button>
+                                    </h2>
+                                    <div id="Market-value-f-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Insurance Report Comming soon...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-4" aria-expanded="false" aria-controls="Market-value-f-3">
+                        Insurance Report
+                      </button>
+                                    </h2>
+                                    <div id="Market-value-f-4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Insurance Report Comming soon...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-5" aria-expanded="false" aria-controls="Market-value-f-3">
+                        Exhibition History
+                      </button>
+                                    </h2>
+                                    <div id="Market-value-f-5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Exhibition History Comming soon...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#Market-value-f-6" aria-expanded="false" aria-controls="Market-value-f-3">
+                        Tokenmetrics
+                      </button>
+                                    </h2>
+                                    <div id="Market-value-f-6" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive">
+                                                <table class="table m-0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Symbol:</td>
+                                                            <td>MNLS</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Total Supply:</td>
+                                                            <td> 1,000,000.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Circulating Supply:</td>
+                                                            <td>1,000,000.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Contract Address:</td>
+                                                            <td>0x510a4cs5addhj53...</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="card-border h-100 border-top-0 page-easy-right">
+
+                        <div class="tab-d-1">
+                            <div class="tab-d-1-btn d-flex align-items-center justify-content-between mb-3">
+                                <div class="tab-d-1-btn-items active">Painting</div>
+                                <div class="tab-d-1-btn-items">Sculpture</div>
+                                <div class="tab-d-1-btn-items">Digital Art</div>
+                            </div>
+                        </div>
+                        <div class="list-d-1-card">
+
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-1.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">STAR</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-2.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">KISS</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-3.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">BHT</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-1.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">STAR</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-2.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">KISS</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-3.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">BHT</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-1.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">STAR</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-2.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">KISS</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-d-1-card-items d-flex align-items-center">
+                                <div class="list-d-1-card-items-img d-flex align-items-center justify-content-center" style="background: url(images/art-3.png);"> </div>
+                                <div class="list-d-1-card-items-info d-flex">
+                                    <h1 class="font-w-700 text-uppercase m-0">BHT</h1>
+                                    <div class="ms-4">
+                                        <p class="m-0 font-w-600 text-grey">36,641.20</p>
+                                        <p class="m-0 text-grey">STAR/ARTEX</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Trade Content End -->
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 footer-space">
+                    <div class="d-lg-flex w-100">
+                        <div class="footer-logo"> <img src="images/logo.png" alt="Artex" /> </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li> <a href="javascript:void(0)">Art Market</a> </li>
+                                <li> <a href="javascript:void(0)">Easy Trade</a> </li>
+                                <li> <a href="javascript:void(0)">Art Pre-sale </a> </li>
+                                <li> <a href="javascript:void(0)">About Us</a> </li>
+                                <li> <a href="javascript:void(0)">Help Center</a> </li>
+                                <li> <a href="javascript:void(0)">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">contact</h4>
+                        <p class="m-0">43252 Borer Mountains <br/> Zackerychester <br/> Bahamas <br/> 732-528-4945
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 footer-space d-flex flex-column border-0">
+                    <div class="ms-auto me-auto">
+                        <h4 class="text-uppercase">Stay Up To Date On <br/> Artex</h4>
+                        <div class="footer-newsletter">
+                            <input type="text" placeholder="Enter your email">
+                            <a href="javascript:void(0)"><i class="bi bi-arrow-right-circle-fill"></i></a>
+                        </div>
+                        <div class="footer-social-media">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/twitter.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/msg-send.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/messanger.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/github.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/rebbit.png" alt="" /></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="images/linkdin.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Copy Right Start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    Copyright © 2022 Artex All rights reserved
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy Right End -->
+
+
+    <!-- Mobile Footer Start -->
+    <section class="mobile-footer d-flex d-md-none">
+        <a href="javascript:void(0)" class="active"><i class="bi bi-house"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-graph-up"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-image"></i></a>
+        <a href="javascript:void(0)"><i class="bi bi-wallet"></i></a>
+    </section>
+    <!-- Mobile Footer End -->
+
+
+
+    <!-- JS start -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/hs.slick-carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slider_custom.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS End -->
+    <script>
+        $(document).on('ready', function() {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+    </script>
+
+
+</body>
+
+</html>

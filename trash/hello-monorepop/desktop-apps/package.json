@@ -1,0 +1,15 @@
+{
+  "name": "desktop-apps",
+  "version": "1.0.0",
+  "description": "The best desktop apps in the world",
+  "main": "main.js",
+  "author": "Manfromearth",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "electron": "^21.3.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
